@@ -1,12 +1,12 @@
-const title = 'Create Ueno App';
-const description = 'The easiest and fastest way to create new projects.';
+const title = "Antonio Almena";
+const description = 'The portfolio site of Antonio Almena';
 
 const favicon = require('assets/images/favicon.png');
 const share = require('assets/images/share.png');
 
 export const helmet = {
   title,
-  titleTemplate: '%s - Ueno',
+  titleTemplate: '%s - Antonio Almena',
   htmlAttributes: { lang: 'en' },
   meta: [
     { name: 'description', content: description },
@@ -25,8 +25,8 @@ export const helmet = {
     { name: 'twitter:title', content: title },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:image', content: share },
-    { name: 'twitter:site', content: '@uenodotco' },
-    { name: 'twitter:creator', content: '@uenodotco' },
+    { name: 'twitter:site', content: '@9ntonio' },
+    { name: 'twitter:creator', content: '@9ntonio' },
     { name: 'twitter:description', content: description },
   ],
   link: [

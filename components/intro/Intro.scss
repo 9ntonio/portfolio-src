@@ -6,14 +6,14 @@
   border-bottom: 1px solid #e5e5e5;
 
   @media (min-width: $min-768) {
-    padding: 120px 0;
+    padding: 20px 0;
   }
 
   &__col {
     @include grid-col;
 
     @media (min-width: $min-768) {
-      @include grid-col(7);
+      @include grid-col(12);
     }
   }
 

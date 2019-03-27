@@ -10,9 +10,9 @@ export default () => (
     <Helmet title="Home" />
 
     <Intro>
-      Opinionated starter by Ueno, using opinionated dependencies 🤪, <Highlight>TypeScript</Highlight>,&nbsp;
-      <Highlight>SCSS</Highlight>, <Highlight>CSS Modules</Highlight>, <Highlight>React Hooks</Highlight>,&nbsp;
-      <Highlight>root resolver</Highlight>, <Highlight>code splitting</Highlight> and a lot of love.
+      <Highlight>Hello</Highlight> 👋🏼 and welcome to my portfolio site. ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      {/* <Highlight>TypeScript</Highlight><Highlight>SCSS</Highlight>, <Highlight>CSS Modules</Highlight>, <Highlight>React Hooks</Highlight>,&nbsp;
+      <Highlight>root resolver</Highlight>, <Highlight>code splitting</Highlight> and a lot of love. */}
     </Intro>
 
     <BlockText

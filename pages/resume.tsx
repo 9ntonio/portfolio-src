@@ -5,10 +5,10 @@ import { Intro } from 'components/intro/Intro';
 
 export default () => (
   <>
-    <Helmet title="About" />
+    <Helmet title="Resume" />
 
     <Intro>
-      About page
+      Resume page
     </Intro>
   </>
 );
