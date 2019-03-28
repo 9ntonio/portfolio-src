@@ -1,28 +1,38 @@
 @import '~styles/config';
 
-.block {
-  padding: 60px 0;
+.portfolio {
+  padding: 50px 0;
+
+  border-bottom: 1px solid #e5e5e5;
 
   @media (min-width: $min-768) {
-    padding: 20px 0;
-    
+    padding: 30px 0;
   }
 
   &__col {
     @include grid-col;
 
     @media (min-width: $min-768) {
-      @include grid-col(12);
+      @include grid-col(7);
+    }
+  }
+
+  &__pic {
+    @include grid-col;
+
+    margin-bottom: 20px;
+
+    @media (min-width: $min-768) {
+      @include grid-col(5);
     }
   }
 
   &__heading {
-    @include rf(16, 20);
+    @include rf(16, 18);
 
     margin-bottom: 5px;
 
     font-family: $font-heading;
-    font-weight: 700;
   }
 
   &__description {
@@ -31,11 +41,9 @@
     font-weight: 300;
     line-height: (26 / 16);
 
-    margin-bottom: 100px;
-
     a { // stylelint-disable-line
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 400;
 
       color: #000;
 

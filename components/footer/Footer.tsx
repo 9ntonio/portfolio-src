@@ -25,8 +25,6 @@ export const Footer = ({ logo, social }: IFooterProps) => (
         >
           {logo}
         </a>
-        
-        <span><h1>&lt;&gt; with &hearts; in San Francisco</h1></span>
 
         <ul className={s.footer__list}>
           {social.map((item) => (
