@@ -4,7 +4,7 @@
   padding: 60px 0;
 
   @media (min-width: $min-768) {
-    padding: 20px 0;
+    padding: 60px 0;
     
   }
 
@@ -31,8 +31,6 @@
     font-weight: 300;
     line-height: (26 / 16);
 
-    margin-bottom: 100px;
-
     a { // stylelint-disable-line
       text-decoration: none;
       font-weight: 700;
@@ -43,7 +41,7 @@
 
       &:hover { // stylelint-disable-line
         //opacity: 0.5;
-        color: darkorange;
+        color: $color-accent;
       }
     }
   }

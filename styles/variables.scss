@@ -20,8 +20,11 @@ $line-height: 1.5;
 
 // Colors
 $color-font: #000;
-$color-background: #fff;
-$color-placeholder: #ddd;
+$color-background: rgb(153, 150, 91);
+$color-placeholder: rgb(255, 0, 0);
+$color-accent: rgb(255, 115, 0);
+$color-accent-opacity-orange: rgba(255, 115, 0,0.75);
+$color-accent-opacity-black: rgba(0, 0, 0,0.1);
 
 // Timings
 $transition-enter: 200ms;

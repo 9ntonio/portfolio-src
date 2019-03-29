@@ -12,7 +12,7 @@
 
     padding: 10px 0;
 
-    border-bottom: 10px solid darkorange;
+    border-bottom: 20px solid $color-accent;
   }
 
   &__list {
@@ -20,12 +20,15 @@
   }
 
   &__item {
+    path { // stylelint-disable-line
+      fill: #000000;
+      transition: 200ms fill ease-in-out;
+    }
+
     margin-left: 30px;
 
-    transition: 200ms opacity ease-in-out;
-
-    &:hover {
-      opacity: 0.5;
+    &:hover path{      
+      fill: $color-accent;
     }
   }
 }

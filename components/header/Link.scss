@@ -3,29 +3,36 @@
 .link {
   display: flex;
 
-  margin-left: 40px;
+  margin-left: 30px;
 
   text-decoration: none;
 
-  color: #404040;
+  font-weight: 700;
 
-  transition: 200ms opacity ease-in-out;
+  color: #000000;
+
+  transition: 200ms color ease-in-out;
 
   &:first-of-type {
     margin-left: 0;
   }
 
   &:hover {
-    opacity: 0.5;
+    color: $color-accent;
   }
 
   &__icon {
     position: relative;
 
-    margin-right: 8px;
+    margin-right: 5px;
 
     path { // stylelint-disable-line
-      fill: #404040;
+      fill: #000000;
+      transition: 200ms fill ease-in-out;
+    }
+    
+    &:hover path{
+      fill: $color-accent;
     }
 
     @media (min-width: $min-768) {

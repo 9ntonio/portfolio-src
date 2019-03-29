@@ -10,7 +10,7 @@ import s from './PortfolioBlock.scss';
 interface IPortfolioData {
   heading: string;
   description: string;
-  fluid: any;
+  image: any;
   to: string;
 }
 
@@ -26,7 +26,7 @@ export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
         <Row>
           <div className={s.portfolio__pic}>
             <a href={item.to} target="_blank" rel="noopener noreferrer">  
-              {item.fluid}
+              {item.image}
             </a>
           </div>
           <div className={s.portfolio__col}>
