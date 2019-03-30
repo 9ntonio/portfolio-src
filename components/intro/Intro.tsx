@@ -9,10 +9,11 @@ import s from './Intro.scss';
 interface IIntroProps {
   children: React.ReactNode;
   subtext: string;
+  to: string;
 }
 
-export const Intro = ({ children, subtext }: IIntroProps) => {
-  if(subtext != undefined) {
+export const Intro = ({ children, subtext, to }: IIntroProps) => {
+  if(subtext != undefined && to != undefined) {
     return (
       <Container>
         <div className={s.intro}>
@@ -22,9 +23,15 @@ export const Intro = ({ children, subtext }: IIntroProps) => {
                 {children}
               </p>
               <p className={s.intro__subtext}>
-                <HighlightSmall>
-                  {subtext}
-                </HighlightSmall>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={to}
+                >
+                  <HighlightSmall>
+                    {subtext}
+                  </HighlightSmall>
+                </a>
               </p>
             </div>
           </Row>

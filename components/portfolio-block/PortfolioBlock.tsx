@@ -30,7 +30,11 @@ export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
             </a>
           </div>
           <div className={s.portfolio__col}>
-            <h3 className={s.portfolio__heading}>{item.heading}</h3>
+            <h3 className={s.portfolio__heading}>
+            <a href={item.to} target="_blank" rel="noopener noreferrer">  
+                {item.heading}
+            </a>
+            </h3>
             <p className={s.portfolio__description}>{item.description}</p>
           </div>
         </Row>

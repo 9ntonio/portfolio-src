@@ -9,6 +9,22 @@
     padding: 60px 0;
   }
 
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  
+  li:before {
+    content: '\02794 ';
+    color: $color-accent;
+    padding-right: 5px;
+  }
+
   &__col {
     @include grid-col;
     @include grid-offset-left;
@@ -20,7 +36,7 @@
   }
 
   &__heading {
-    @include rf(16, 20);
+    @include rf(16, 24);
 
     margin-bottom: 0px;
 
@@ -30,6 +46,7 @@
     &::before {
       content: '\02794 ';
       color: $color-accent;
+      margin-right: 5px;
     }
   }
 
@@ -58,7 +75,6 @@
       transition: 200ms color ease-in-out;
 
       &:hover { // stylelint-disable-line
-        //opacity: 0.5;
         color: $color-accent;
       }
     }

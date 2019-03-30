@@ -6,11 +6,13 @@ import { BlockTextResume } from 'components/block-text/BlockTextResume';
 import { HighlightSmall } from 'components/intro/HighlightSmall';
 import { Spacer } from "components/spacer/Spacer";
 
+import pdf from 'assets/pdf/Antonio_Almena_Resume.pdf'
+
 export default () => (
   <>
     <Helmet title="Resume" />
 
-    <Intro subtext="Jared Stanley">
+    <Intro subtext="Jared Stanley" to='https://www.linkedin.com/in/jaredstanley/'>
       During extremely high-stress situations requiring complex design and code deliverables, I never once saw Antonio lose his cool or drop the ball on anything. He was a great communicator, had a very thorough understanding of the technology requirements as well as a very nuanced understanding of the design system being implemented (a 500-page doc!). 
       I thoroughly enjoyed working with Antonio and would look forward to working with him again if the opportunity arose.
       I highly recommend him to any team that is looking for a solid client-facing Technology Director who is adept at shepherding complex projects out the door while maintaining design integrity and a thorough understanding of the projects' technology stack.
@@ -28,14 +30,18 @@ export default () => (
           <br /><br />
           I have a design background that allows me to use my keen eye for detail on both an aesthetic and technical scale.
           <br/><br/>
-          Here are a few accomplishemets to help you understand my previous experience:
+          <u>Here are a few accomplishemets to help you understand my previous experience:</u>
           <br/>
-          &#10132; I have 10+ years of experience specializing in department building and management in companies with 100+ employees.<br/>
-          &#10132; I've built and led a department consisting of 20+ employees ranging from engineers, producers, art directors and QA.<br/>
-          &#10132; I have experience developing and releasing various consumer products.<br/>
-          &#10132; I also have experience project managing complex, multi-functional projects.<br/>
-          &#10132; I'm able to motivate and empower my entire team to reach ambitious goals.<br/>
-          &#10132; Awarded the Communication Arts Interactive Annual Award.【ツ】
+          <ul>
+            <li>I have 10+ years of experience specializing in department building and management in companies with 100+ employees.</li>
+            <li>I've built and led a department consisting of 20+ employees ranging from engineers, producers, art directors and QA.</li>
+            <li>I have experience developing and releasing various consumer products.</li>
+            <li>I also have experience project managing complex, multi-functional projects.</li>
+            <li>I'm able to motivate and empower my entire team to reach ambitious goals.</li>
+            <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.【ツ】</li>
+          </ul>
+          <br/>
+          <a href={pdf} target="_blank" rel="noopener noreferrer">Click here to download my resume.</a>
         </>
       )}
     />
@@ -65,7 +71,7 @@ export default () => (
           Built and led an engineering department consisting of 20+ employees ranging from engineers, producers, art directors and QA.<br/>
           Adept at creating and leading online marketing campaigns that meet scope, budget and timeline requirements.<br/>
           Created and presented creative and technical solutions for various client projects.<br/>
-          Hired, mentored and set professional goals for engineering team.
+          Hired, mentored and set professional goals for engineering team.<br/>
           Hands on development
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML5, CSS3, JavaScript, JQuery, PHP, MySQL, Apache, Linux & Flash. 
@@ -106,7 +112,7 @@ export default () => (
         <>
           Worked with a team of engineers focused on building the marketing site for <a href="https://www.acura.com/" target="_blank" rel="noopener noreferrer">Acura.com</a>.<br/>
           Spearheaded internal movement to create our own code library.<br/>	
-          Awarded the Communication Arts Interactive Annual Award.	
+          Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.	
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript, JQuery, PHP & Flash.
         </>
