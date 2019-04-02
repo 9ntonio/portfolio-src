@@ -26,11 +26,9 @@
   }
 
   &__col {
-    @include grid-col;
-    @include grid-offset-left;
 
     @media (min-width: $min-768) {
-      @include grid-col(10);
+      @include grid-col(11);
       @include grid-offset-left(1);
     }
   }
@@ -64,7 +62,7 @@
 
     font-weight: 300;
     line-height: (26 / 16);
-    margin-left: 20px;
+    margin-left: 30px;
 
     a { // stylelint-disable-line
       text-decoration: none;

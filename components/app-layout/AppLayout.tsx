@@ -40,7 +40,7 @@ export default ({ children }: IAppLayoutProps) => (
 
       <HeaderLink
         name="github"
-        to="https://github.com/9ntonio"
+        to="https://github.com/9ntonio/portfolio"
         icon={<Github />}
       />
     </Header>
@@ -51,7 +51,7 @@ export default ({ children }: IAppLayoutProps) => (
       logo={<Logo />}
       social={[
         { icon: <Twitter />, to: 'https://twitter.com/9ntonio' },
-        { icon: <Github />, to: 'https://github.com/9ntonio' },
+        { icon: <Github />, to: 'https://github.com/9ntonio/portfolio' },
         { icon: <Instagram />, to: 'https://www.instagram.com/9ntonio' },
         { icon: <Linkedin />, to: 'https://www.linkedin.com/in/antonio-almena/' },
       ]}

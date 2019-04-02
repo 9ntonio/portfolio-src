@@ -5,6 +5,7 @@ import { Intro } from 'components/intro/Intro';
 import { BlockTextResume } from 'components/block-text/BlockTextResume';
 import { HighlightSmall } from 'components/intro/HighlightSmall';
 import { Spacer } from "components/spacer/Spacer";
+import { Button } from 'components/button/Button';
 
 import pdf from 'assets/pdf/Antonio_Almena_Resume.pdf'
 
@@ -41,7 +42,7 @@ export default () => (
             <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.【ツ】</li>
           </ul>
           <br/>
-          <a href={pdf} target="_blank" rel="noopener noreferrer">Click here to download my resume.</a>
+          <Button to={pdf}>Download Resume</Button>
         </>
       )}
     />

@@ -1,0 +1,33 @@
+@import '~styles/config';
+
+.video {
+  padding: 60px 0;
+
+  @media (max-width: $max-720) {
+    visibility: hidden;
+    height: 10px;
+  }
+
+  &__vid {
+    @include grid-col;
+    
+    @media (min-width: $min-768) {
+      @include grid-col(6);
+    }
+  }
+
+  &__col {
+    @include grid-col;
+
+    @media (min-width: $min-768) {
+      @include grid-col(12);
+    }
+  }
+
+  &__description {
+    @include rf(16, 24);
+
+    font-weight: 300;
+    line-height: (26 / 14);
+  }
+}
