@@ -2,7 +2,7 @@
 
 This repository is used as git submodule for the "src" folder of the [`portfolio starter`](https://github.com/9ntonio/portfolio). During the installation process of the portfolio, the submodule is resolved and this repository is cloned into the freshly created app.
 
-This submodule is based on [`Ueno's`](https://ueno.co/) starter (which in turn was an extension of the Gatsby starter) which you can check out here: [`create-ueno-app`](https://github.com/ueno-llc/create-ueno-app). If you want a starter kit that has no portfolio structure what so ever, I would highly recomend using their starter kit. 
+This submodule is based on [`Ueno's`](https://ueno.co/) starter (which in turn was an extension of the Gatsby starter) which you can check out here: [`create-ueno-app`](https://github.com/ueno-llc/create-ueno-app). If you want a starter kit that has no portfolio structure what so ever, I would highly recommend using their starter kit. 
 
 Please note that I added a video component, a spacer component, and some portfolio specific block components in hopes that it may help you in your portfolio build. 
 
