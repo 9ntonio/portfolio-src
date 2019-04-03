@@ -18,7 +18,7 @@ export const BlockTextResume = ({ heading, subheading, description }: IBlockResu
         <div className={s.block_resume__col}>
           <h3 className={s.block_resume__heading}>{heading}</h3>
           <h4 className={s.block_resume__subheading}>{subheading}</h4>
-          <p className={s.block_resume__description}>{description}</p>
+          <span className={s.block_resume__description}>{description}</span>
         </div>
       </Row>
     </div>

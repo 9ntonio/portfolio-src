@@ -21,8 +21,8 @@ interface IPortfolioBlockProps {
 export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
   <Container>
 
-    {data.map((item) => (
-      <div className={s.portfolio}>
+    {data.map((item, i) => (
+      <div className={s.portfolio} key={i}>
         <Row>
           <div className={s.portfolio__pic}>
             <a href={item.to} target="_blank" rel="noopener noreferrer">  
