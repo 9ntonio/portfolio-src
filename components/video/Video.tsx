@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 
 import { Container } from 'components/container/Container';
 import { Row } from 'components/row/Row';
@@ -10,8 +10,7 @@ interface IVideoProp {
   to: string;
 }
 
-
-export const Video = ({to} : IVideoProp) => (
+export const Video = ({to}: IVideoProp) => (
   <>
   <Container>
   <div className={s.video}>

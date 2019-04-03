@@ -34,10 +34,10 @@ export const Link = ({ name, to, icon }: ILinkProps) => {
       </a>
     );
   } else if (isEmail) {
-    return ( 
+    return (
       <a
         className={s.link}
-        href={"mailto:" + to}
+        href={'mailto:' + to}
       >
         {content()}
       </a>

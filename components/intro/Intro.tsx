@@ -13,7 +13,7 @@ interface IIntroProps {
 }
 
 export const Intro = ({ children, subtext, to }: IIntroProps) => {
-  if(subtext != undefined && to != undefined) {
+  if (subtext !== undefined && to !== undefined) {
     return (
       <Container>
         <div className={s.intro}>

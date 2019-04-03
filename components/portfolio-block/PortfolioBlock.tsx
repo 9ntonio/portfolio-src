@@ -1,11 +1,10 @@
 import * as React from 'react';
-import Img from "gatsby-image"
+import Img from 'gatsby-image';
 
 import { Container } from 'components/container/Container';
 import { Row } from 'components/row/Row';
 
 import s from './PortfolioBlock.scss';
-
 
 interface IPortfolioData {
   heading: string;
@@ -25,13 +24,13 @@ export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
       <div className={s.portfolio} key={i}>
         <Row>
           <div className={s.portfolio__pic}>
-            <a href={item.to} target="_blank" rel="noopener noreferrer">  
+            <a href={item.to} target="_blank" rel="noopener noreferrer">
               {item.image}
             </a>
           </div>
           <div className={s.portfolio__col}>
             <h3 className={s.portfolio__heading}>
-            <a href={item.to} target="_blank" rel="noopener noreferrer">  
+            <a href={item.to} target="_blank" rel="noopener noreferrer">
                 {item.heading}
             </a>
             </h3>
