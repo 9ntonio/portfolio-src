@@ -38,9 +38,9 @@ export default () => (
           <ul>
             <li>I have 10+ years of experience specializing in department building and management in companies with 100+ employees.</li>
             <li>I've built and led a department consisting of 20+ employees ranging from engineers, producers, art directors and QA.</li>
-            <li>I have experience developing and releasing various consumer products.</li>
-            <li>I also have experience project managing complex, multi-functional projects.</li>
-            <li>I'm able to motivate and empower my entire team to reach ambitious goals.</li>
+            <li>I have experience developing and releasing various consumer products to market.</li>
+            <li>I also have experience project managing complex, multi-functional projects with many moving parts.</li>
+            <li>I'm able to motivate and empower my entire team to reach ambitious goals while keeping a positive attitude.</li>
             <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.【ツ】</li>
           </ul>
           <br/>
@@ -54,12 +54,13 @@ export default () => (
       subheading="Odopod | Mar 2013 - Oct 2018"
       description={(
         <>
-          Led an external team of engineers in building the responsive frontend for <a href="https://www.sony.co.uk" target="_blank" rel="noopener noreferrer">sony.co.uk</a>.<br />
-          Led engineering team and architected with Sony the iOS and Chromecast applications for <a href="https://www.odopod.com/case-studies/ps-vue" target="_blank" rel="noopener noreferrer">PlayStation Vue</a>.<br /> 
-          Led engineering team and worked closely with Google to help create the <a href="https://store.google.com" target="_blank" rel="noopener noreferrer">Google online store.</a><br />
-          Adept at creating and managing scope, budget and timelines for various projects.<br />
-          Collaborated with engineers, designers, product managers and support teams to implement our strategies across various products.
-          Hands on development.
+          • Led an external team of engineers in building the responsive frontend for <a href="https://www.sony.co.uk" target="_blank" rel="noopener noreferrer">sony.co.uk</a>.<br />
+          • Led engineering team and architected with Sony the iOS and Chromecast applications for <a href="https://www.odopod.com/case-studies/ps-vue" target="_blank" rel="noopener noreferrer">PlayStation Vue</a>.<br /> 
+          • Led engineering team and worked closely with Google to help create the <a href="https://store.google.com" target="_blank" rel="noopener noreferrer">Google online store.</a><br />
+          • Conducted code reviews for team members to look for optimizations, maintain project standards, and share knowledge.<br/>
+          • Adept at creating and managing scope, budget and timelines for various projects.<br />
+          • Collaborated with engineers, designers, product managers and support teams to implement our strategies across various products.<br/>
+          • Hands on development.
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML5, CSS3, SCSS, JavaScript, JQuery, Git, WebPack, React, Java, Swift, PHP, Yarn, Mocha, Chai, Python, Ember & Node.
         </>
@@ -71,11 +72,11 @@ export default () => (
       subheading="Petrol | Mar 2007 - May 2012"
       description={(
         <>
-          Built and led an engineering department consisting of 20+ employees ranging from engineers, producers, art directors and QA.<br/>
-          Adept at creating and leading online marketing campaigns that meet scope, budget and timeline requirements.<br/>
-          Created and presented creative and technical solutions for various client projects.<br/>
-          Hired, mentored and set professional goals for engineering team.<br/>
-          Hands on development
+          • Built and led an engineering department consisting of 20+ employees ranging from engineers, producers, art directors and QA.<br/>
+          • Adept at creating and leading online marketing campaigns that meet scope, budget and timeline requirements.<br/>
+          • Created and presented creative and technical solutions for various client projects.<br/>
+          • Hired, mentored and set professional goals for engineering team.<br/>
+          • Hands on development.
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML5, CSS3, JavaScript, JQuery, PHP, MySQL, Apache, Linux & Flash. 
         </>
@@ -99,9 +100,10 @@ export default () => (
       subheading="Heavenspot | Feb 2006 – Apr 2007"
       description={(
         <>
-          Architected systems and processes to standardize and streamline the development of projects.<br/>
-          Conducted code reviews for team members to look for optimizations, maintain project standards, and share knowledge.<br/>
-          Spearheaded internal movement to create our own code library.
+          • Architected systems and processes to standardize and streamline the development of projects.<br/>
+          • Conducted code reviews for team members to look for optimizations, maintain project standards, and share knowledge.<br/>
+          • Spearheaded internal movement to create our own code library.<br/>
+          • Hands on development.
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript , JQuery, PHP, MySQL, Apache Server, Linux & Flash.
         </>
@@ -113,9 +115,10 @@ export default () => (
       subheading="Genex | May 2003 – Feb 2006"
       description={(
         <>
-          Worked with a team of engineers focused on building the marketing site for <a href="https://www.acura.com/" target="_blank" rel="noopener noreferrer">Acura.com</a>.<br/>
-          Spearheaded internal movement to create our own code library.<br/>	
-          Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.	
+          • Worked with a team of engineers focused on building the marketing site for <a href="https://www.acura.com/" target="_blank" rel="noopener noreferrer">Acura.com</a>.<br/>
+          • Spearheaded internal movement to create our own code library.<br/>	
+          • Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.<br/>
+          • Hands on development.
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript, JQuery, PHP & Flash.
         </>

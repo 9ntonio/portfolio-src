@@ -5,10 +5,6 @@
 
   border-bottom: 3px dashed $color-accent-opacity-black;
 
-  @media (min-width: $min-768) {
-    padding: 60px 0;
-  }
-
   ul {
     margin-left: 0;
     padding-left: 0;
@@ -26,6 +22,8 @@
   }
 
   &__col {
+
+    @include grid-col(12);
 
     @media (min-width: $min-768) {
       @include grid-col(11);
@@ -62,7 +60,6 @@
 
     font-weight: 300;
     line-height: (26 / 16);
-    margin-left: 30px;
 
     a { // stylelint-disable-line
       text-decoration: none;

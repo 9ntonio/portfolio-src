@@ -27,32 +27,32 @@ const IndexPage = (props) => (
     <PortfolioBlock
       data={[
         { heading: "Playstation Vue", 
-          description: "Odopod implemented the iOS companion app as well as the Chromecast app for Sony's revolutionary IPTV service. This app includes live TV, DVR, and VOD features using integration with MLBAM's content delivery service and complex access control features implemented client-side.", 
+          description: "Odopod implemented the iOS companion app as well as the Chromecast app for Sony's revolutionary IPTV service. This app includes live TV, DVR, and VOD features using integration with MLBAM's content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.", 
           image: <Img fluid={props.data.imageVue.childImageSharp.fluid} alt={'Antonio Almena PlayStation Vue'} />, 
           to: 'https://www.odopod.com/case-studies/ps-vue' 
         },
         { heading: "Google Store", 
-          description: "Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google's online store. We worked closely with Google's engineering team in order to adhere to their technical requirements and testing guidelines.", 
+          description: "Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google's online store. As the Technical Director on the project I worked closely with Google's engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts and Mocha scripts as a way to preemptively test our architecture prior to kickoff as a means to test and solidify our architecture.", 
           image: <Img fluid={props.data.imageGoogle.childImageSharp.fluid} alt={'Antonio Almena Google Store'} />, 
           to: 'https://store.google.com' 
         },
         { heading: "Sony Global Web Transformation", 
-          description: "Odopod rebuilt Sony's entire global online presence. This large-scale, responsive redesign aligns dozens of fragmented regional sites under a single design system. Our technology powers this unification by providing a robust UI toolkit and HTML style guide for content creators.", 
+          description: "Odopod rebuilt Sony's entire global online presence. This large-scale, responsive redesign aligns dozens of fragmented regional sites under a single design system. Our technology powers this unification by providing a robust UI toolkit and HTML style guide for content creators. Part of my tasks as the Technical Director was to digest a 500 page guidelines manual that outlined the technology stack for this massive project that lasted over a year. Afterwards, it was my job to lead the external team assigned to this project to insure that they kept to Sony's technical standards as well as onboard new members to the Sony team.", 
           image: <Img fluid={props.data.imageSony.childImageSharp.fluid} alt={'Antonio Almena Sony Web Transormation'} />, 
           to: 'https://www.sony.co.uk' 
         },
         { heading: "Audemars Piguet", 
-          description: "Odopods long standing relationship with Audemars Piguet allowed us to work closely with the luxury watchmaker. We refreshed the online watch browser making it easier (and faster) to find watches from their extensive catalog. We also made it easier for customers to get in touch with stores and make appointments online thus increasing their ROI.", 
+          description: "Odopods long standing relationship with Audemars Piguet allowed us to work closely with the luxury watchmaker. When I came on to this project as the Technical Director the dev team was re-constructing the front-end so as to make the site responsive. Along with the front-end reconstruction, we added an extensive watch browser experience so users can search the entire collection at faster speeds. We also created new API's to allow users to schedule appointments with stores via the site while also re-platforming the site from Symfony to Laravel.", 
           image: <Img fluid={props.data.imageAudemars.childImageSharp.fluid} alt={'Antonio Almena Audemars Piguet'} />, 
           to: 'https://www.audemarspiguet.com/' 
         },
         { heading: "Dolby Laboratories", 
-          description: "Odopod designed and engineered Dolby Laboratories online presence. Our technology powers the site's responsive redesign by providing a robust UI toolkit and HTML style guide for content creators.", 
+          description: "Odopod designed and engineered Dolby Laboratories online presence. Our technology powers the site's responsive redesign by providing a robust UI toolkit and HTML style guide for content creators. As Technical Director on the project that was equal parts design (there were many style components to the system), as well as front-end integration into the large CMS that was powering the site.", 
           image: <Img fluid={props.data.imageDolby.childImageSharp.fluid} alt={'Antonio Almena Dolby Labs'} />, 
           to: 'https://www.dolby.com/' 
         },
         { heading: "Inside Your Scion", 
-          description: "Although this CD-ROM stylistically connects with Scion's urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. Included with every Scion at the point of purchase, it is both scalable and modular, allowing content to be easily updated via an external XML file structure. Winner of the Communication Arts Interactive Annual Award.", 
+          description: "Although this project stylistically connects with Scion's urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. My job was to create programmic animations that could be used throughout the application as well as construct the architecture that enabled the project to scale via XML file updates. For our efforts, the project was the winner of the Communication Arts Interactive Annual Award.", 
           image: <Img fluid={props.data.imageScion.childImageSharp.fluid} alt={'Antonio Almena Inside Your Scion'} />, 
           to: 'https://www.commarts.com/project/22631/inside-your-scion' 
         },
@@ -64,11 +64,12 @@ const IndexPage = (props) => (
       description={(
         <>
           This site is based on <a href='https://ueno.co/' target='_blank' rel="noopener noreferrer"> Ueno's</a> starter (which in turn was an extension of the <a href='https://github.com/gatsbyjs/gatsby-starter-default' target='_blank' rel='noopener noreferrer' >Gatsby starter</a>) which you can check out here: <a href='https://github.com/ueno-llc/create-ueno-app' target='_blank' rel="noopener noreferrer">create-ueno-app</a>. 
-          <br/>
           If you want a starter kit that has no portfolio structure what so ever, I would highly recommend using the Ueno starter kit. 
-          <br/>
+          <br/><br/>
           This site uses: <HighlightSmall>TypeScript</HighlightSmall>, <HighlightSmall>SCSS</HighlightSmall>, <HighlightSmall>CSS Modules</HighlightSmall>, <HighlightSmall>React Hooks</HighlightSmall>, <HighlightSmall>root resolver</HighlightSmall>, <HighlightSmall>GraphQL</HighlightSmall> and <HighlightSmall>code splitting</HighlightSmall>.
-          <br/>
+          <br/><br/>
+          🌟This site is also a <HighlightSmall>Progressive</HighlightSmall> <HighlightSmall>Web</HighlightSmall> <HighlightSmall>App</HighlightSmall>. 🌟
+          <br/><br/>
           &lt;&gt; with 💝in San Francisco. ✌🏼
         </>
       )}
