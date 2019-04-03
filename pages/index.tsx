@@ -68,8 +68,6 @@ const IndexPage = (props) => (
           <br/><br/>
           This site uses: <HighlightSmall>TypeScript</HighlightSmall>, <HighlightSmall>SCSS</HighlightSmall>, <HighlightSmall>CSS Modules</HighlightSmall>, <HighlightSmall>React Hooks</HighlightSmall>, <HighlightSmall>root resolver</HighlightSmall>, <HighlightSmall>GraphQL</HighlightSmall> and <HighlightSmall>code splitting</HighlightSmall>.
           <br/><br/>
-          🌟This site is also a <HighlightSmall>Progressive</HighlightSmall> <HighlightSmall>Web</HighlightSmall> <HighlightSmall>App</HighlightSmall>. 🌟
-          <br/><br/>
           &lt;&gt; with 💝in San Francisco. ✌🏼
         </>
       )}
