@@ -14,7 +14,7 @@ export const HighlightSmall = ({ children }: IHighlightSmallProps) => {
     return words.map((word, index) => (
       <span key={word} className={s(s.highlight_small, { isFirst: length > 1 && index === 0 })}>
         <span className={s.highlight_small__text}>{word}</span>
-        <span className={s.highlight_small__color} /> 
+        <span className={s.highlight_small__color} />
       </span>
     ));
   };

@@ -1,4 +1,4 @@
-const title = "Antonio Almena";
+const title = 'Antonio Almena';
 const description = 'The portfolio site of Antonio Almena';
 
 const favicon = require('assets/images/favicon.png');

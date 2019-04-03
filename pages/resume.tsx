@@ -5,18 +5,18 @@ import { Intro } from 'components/intro/Intro';
 import { BlockTextResume } from 'components/block-text/BlockTextResume';
 import { HighlightSmall } from 'components/intro/HighlightSmall';
 import { Highlight } from 'components/intro/Highlight';
-import { Spacer } from "components/spacer/Spacer";
+import { Spacer } from 'components/spacer/Spacer';
 import { Button } from 'components/button/Button';
 
-import pdf from 'assets/pdf/Antonio_Almena_Resume.pdf'
+import pdf from 'assets/pdf/Antonio_Almena_Resume.pdf';
 
 export default () => (
   <>
     <Helmet title="Resume" />
 
-    <Intro subtext="Jared Stanley" to='https://www.linkedin.com/in/jaredstanley/'>
-      During <Highlight>extremely</Highlight> <Highlight>high-stress</Highlight> 💦 situations requiring <Highlight>complex</Highlight> <Highlight>design</Highlight> and <Highlight>code</Highlight> <Highlight>deliverables</Highlight> 📩, I never once saw <Highlight>Antonio</Highlight> lose his cool 😎 or drop the ball 🎾 on <Highlight>anything</Highlight>. 
-      He was a great <Highlight>communicator</Highlight>, had a very <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the technology requirements as well as a very <Highlight>nuanced</Highlight> <Highlight>understanding</Highlight> of the design system being implemented (a <Highlight>500</Highlight>-<Highlight>page</Highlight>📄 doc!). 
+    <Intro subtext="Jared Stanley" to="https://www.linkedin.com/in/jaredstanley/">
+      During <Highlight>extremely</Highlight> <Highlight>high-stress</Highlight> 💦 situations requiring <Highlight>complex</Highlight> <Highlight>design</Highlight> and <Highlight>code</Highlight> <Highlight>deliverables</Highlight> 📩, I never once saw <Highlight>Antonio</Highlight> lose his cool 😎 or drop the ball 🎾 on <Highlight>anything</Highlight>.
+      He was a great <Highlight>communicator</Highlight>, had a very <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the technology requirements as well as a very <Highlight>nuanced</Highlight> <Highlight>understanding</Highlight> of the design system being implemented (a <Highlight>500</Highlight>-<Highlight>page</Highlight>📄 doc!).
       I thoroughly enjoyed working with <Highlight>Antonio</Highlight> and would look forward to working with him again if the opportunity arose.
       I <Highlight>highly</Highlight> <Highlight>recommend</Highlight> him to any team that is looking for a solid client-facing <Highlight>Technology</Highlight> <Highlight>Director</Highlight>👨🏽‍💻 who is adept at shepherding complex projects out the door🚪 while maintaining <Highlight>design</Highlight> <Highlight>integrity</Highlight> and a <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the projects' <Highlight>technology</Highlight> <Highlight>stack</Highlight>.
       👍🏽
@@ -27,9 +27,9 @@ export default () => (
       subheading="Self Employed | Oct 2018 - Present"
       description={(
         <>
-          I'm an experienced UX design and development leader who creates thoughtful and powerful mobile and web applications. 
+          I'm an experienced UX design and development leader who creates thoughtful and powerful mobile and web applications.
           <br /><br />
-          I have experience developing (and releasing) various consumer products that contain various complex, multi-functional sub projects. I'm able to collaborate with internal teams (and client partners) while also being able to motivate and empower my team to reach ambitious goals that meet project milestones and budgetary constraints. 
+          I have experience developing (and releasing) various consumer products that contain various complex, multi-functional sub projects. I'm able to collaborate with internal teams (and client partners) while also being able to motivate and empower my team to reach ambitious goals that meet project milestones and budgetary constraints.
           <br /><br />
           I have a design background that allows me to use my keen eye for detail on both an aesthetic and technical scale.
           <br/><br/>
@@ -55,7 +55,7 @@ export default () => (
       description={(
         <>
           • Led an external team of engineers in building the responsive frontend for <a href="https://www.sony.co.uk" target="_blank" rel="noopener noreferrer">sony.co.uk</a>.<br />
-          • Led engineering team and architected with Sony the iOS and Chromecast applications for <a href="https://www.odopod.com/case-studies/ps-vue" target="_blank" rel="noopener noreferrer">PlayStation Vue</a>.<br /> 
+          • Led engineering team and architected with Sony the iOS and Chromecast applications for <a href="https://www.odopod.com/case-studies/ps-vue" target="_blank" rel="noopener noreferrer">PlayStation Vue</a>.<br />
           • Led engineering team and worked closely with Google to help create the <a href="https://store.google.com" target="_blank" rel="noopener noreferrer">Google online store.</a><br />
           • Conducted code reviews for team members to look for optimizations, maintain project standards, and share knowledge.<br/>
           • Adept at creating and managing scope, budget and timelines for various projects.<br />
@@ -78,7 +78,7 @@ export default () => (
           • Hired, mentored and set professional goals for engineering team.<br/>
           • Hands on development.
           <br/><br/>
-          <HighlightSmall>Technologies Used:</HighlightSmall> HTML5, CSS3, JavaScript, JQuery, PHP, MySQL, Apache, Linux & Flash. 
+          <HighlightSmall>Technologies Used:</HighlightSmall> HTML5, CSS3, JavaScript, JQuery, PHP, MySQL, Apache, Linux & Flash.
         </>
       )}
     />
@@ -88,7 +88,7 @@ export default () => (
       subheading="California State University, Northridge | Jan 2005 – Dec 2007"
       description={(
         <>
-          Instructor for the Design Department. I taught the equivalent of a "Web 101" course to design students. 
+          Instructor for the Design Department. I taught the equivalent of a "Web 101" course to design students.
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript, JQuery & Flash.
         </>
@@ -116,14 +116,14 @@ export default () => (
       description={(
         <>
           • Worked with a team of engineers focused on building the marketing site for <a href="https://www.acura.com/" target="_blank" rel="noopener noreferrer">Acura.com</a>.<br/>
-          • Spearheaded internal movement to create our own code library.<br/>	
+          • Spearheaded internal movement to create our own code library.<br/>
           • Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.<br/>
           • Hands on development.
           <br/><br/>
           <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript, JQuery, PHP & Flash.
         </>
       )}
-    /> 
+    />
 
     <BlockTextResume
       heading="Education"
@@ -133,7 +133,7 @@ export default () => (
           Worked primarily in new media technologies (digital imaging, web technologies, computer processing) within the umbrella of the fine art curriculum as a means to find new forms of communication for my work.
         </>
       )}
-    /> 
+    />
 
     <Spacer />
   </>
