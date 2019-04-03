@@ -13,7 +13,7 @@ export const Devtools = () => {
   const keys = useKeyDown();
 
   React.useEffect(() => {
-    if (keys.includes(17) && keys.includes(75)) {
+    if (keys.includes(17) && keys.includes(71)) {
       setVisible(!isVisible);
     }
   }, [keys]);

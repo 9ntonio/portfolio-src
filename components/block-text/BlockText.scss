@@ -4,23 +4,25 @@
   padding: 60px 0;
 
   @media (min-width: $min-768) {
-    padding: 180px 0;
+    padding: 60px 0;
+    
   }
 
   &__col {
     @include grid-col;
 
     @media (min-width: $min-768) {
-      @include grid-col(5);
+      @include grid-col(12);
     }
   }
 
   &__heading {
-    @include rf(16, 18);
+    @include rf(16, 20);
 
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
     font-family: $font-heading;
+    font-weight: 700;
   }
 
   &__description {
@@ -31,14 +33,15 @@
 
     a { // stylelint-disable-line
       text-decoration: none;
-      font-weight: 400;
+      font-weight: 700;
 
       color: #000;
 
-      transition: 200ms opacity ease-in-out;
+      transition: 200ms color ease-in-out;
 
       &:hover { // stylelint-disable-line
-        opacity: 0.5;
+        //opacity: 0.5;
+        color: $color-accent;
       }
     }
   }

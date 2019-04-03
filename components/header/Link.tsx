@@ -13,6 +13,7 @@ interface ILinkProps {
 export const Link = ({ name, to, icon }: ILinkProps) => {
   const isLink = (typeof to !== 'undefined');
   const isExternal = isLink && /^((https?:)?\/\/|[0-9a-zA-Z]+:)/.test(to || '');
+  const isEmail = isLink && /^([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.])/.test(to);
 
   const content = () => (
     <>
@@ -28,6 +29,15 @@ export const Link = ({ name, to, icon }: ILinkProps) => {
         target="_blank"
         rel="noopener noreferrer"
         href={to}
+      >
+        {content()}
+      </a>
+    );
+  } else if (isEmail) {
+    return ( 
+      <a
+        className={s.link}
+        href={"mailto:" + to}
       >
         {content()}
       </a>
