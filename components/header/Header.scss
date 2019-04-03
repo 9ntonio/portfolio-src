@@ -21,6 +21,15 @@
       height: 16px;
       width: auto;
 
+      path { // stylelint-disable-line
+        fill: #000000;
+        transition: 200ms fill ease-in-out;
+      }
+
+      &:hover path{      
+        fill: $color-accent;
+      }
+
       @media (min-width: $min-768) {
         height: 18px;
       }

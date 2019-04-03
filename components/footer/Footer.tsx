@@ -23,7 +23,7 @@ export const Footer = ({ logo, social }: IFooterProps) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {logo}
+          <span className={s.footer__logo} >{logo}</span>
         </a>
 
         <ul className={s.footer__list}>

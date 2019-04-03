@@ -31,4 +31,15 @@
       fill: $color-accent;
     }
   }
+
+  &__logo {
+    path { // stylelint-disable-line
+      fill: #000000;
+      transition: 200ms fill ease-in-out;
+    }
+
+    &:hover path{      
+      fill: $color-accent;
+    }
+  }
 }
