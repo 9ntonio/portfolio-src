@@ -1,9 +1,11 @@
 import * as React from 'react';
 
-import s from './Spacer.scss';
+interface ISpacer {
+  spacerStyle: Object;
+}
 
-export const Spacer = () => (
-  <div className={s.spacer}>
+export const Spacer = ({spacerStyle} : ISpacer) => (
+  <div style={spacerStyle} >
     &nbsp;
   </div>
 );

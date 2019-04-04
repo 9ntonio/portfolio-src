@@ -13,10 +13,10 @@ export default () => (
     <Helmet title="Resume" />
 
     <Intro subtext="Jared Stanley" to="https://www.linkedin.com/in/jaredstanley/">
-      During <Highlight>extremely</Highlight> <Highlight>high-stress</Highlight> 💦 situations requiring <Highlight>complex</Highlight> <Highlight>design</Highlight> and <Highlight>code</Highlight> <Highlight>deliverables</Highlight> 📩, I never once saw <Highlight>Antonio</Highlight> lose his cool 😎 or drop the ball 🎾 on <Highlight>anything</Highlight>.
+      "During <Highlight>extremely</Highlight> <Highlight>high-stress</Highlight> 💦 situations requiring <Highlight>complex</Highlight> <Highlight>design</Highlight> and <Highlight>code</Highlight> <Highlight>deliverables</Highlight> 📩, I never once saw <Highlight>Antonio</Highlight> lose his cool 😎 or drop the ball 🎾 on <Highlight>anything</Highlight>.
       He was a great <Highlight>communicator</Highlight>, had a very <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the technology requirements as well as a very <Highlight>nuanced</Highlight> <Highlight>understanding</Highlight> of the design system being implemented (a <Highlight>500</Highlight>-<Highlight>page</Highlight>📄 doc!).
       I thoroughly enjoyed working with <Highlight>Antonio</Highlight> and would look forward to working with him again if the opportunity arose.
-      I <Highlight>highly</Highlight> <Highlight>recommend</Highlight> him to any team that is looking for a solid client-facing <Highlight>Technology</Highlight> <Highlight>Director</Highlight>👨🏽‍💻 who is adept at shepherding complex projects out the door🚪 while maintaining <Highlight>design</Highlight> <Highlight>integrity</Highlight> and a <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the projects' <Highlight>technology</Highlight> <Highlight>stack</Highlight>.
+      I <Highlight>highly</Highlight> <Highlight>recommend</Highlight> him to any team that is looking for a solid client-facing <Highlight>Technology</Highlight> <Highlight>Director</Highlight>👨🏽‍💻 who is adept at shepherding complex projects out the door🚪 while maintaining <Highlight>design</Highlight> <Highlight>integrity</Highlight> and a <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the projects' <Highlight>technology</Highlight> <Highlight>stack</Highlight>."
       👍🏽
     </Intro>
 
@@ -133,6 +133,6 @@ export default () => (
       )}
     />
 
-    <Spacer />
+    <Spacer spacerStyle={{height: 170 + "px"}} />
   </>
 );
