@@ -16,7 +16,7 @@ const IndexPage = (props) => (
 
     <Intro>
       <Highlight>Hello</Highlight> 👋🏽 and welcome. My name is <Highlight>Antonio</Highlight> and I 💖 the <Highlight>Web</Highlight>.
-      I 💓 its technology and I 💞 finding technical solutions to make it better. In short, it's my <Highlight>passion</Highlight> and my livelihood.
+      I 💓 its technology and I 💞 finding technical solutions to make it better. In short, it's my <Highlight>passion</Highlight> and my <Highlight>livelihood</Highlight>.
       I 💘 how it can <Highlight>connect</Highlight>, <Highlight>teach</Highlight> and <Highlight>entertain</Highlight> us from anywhere in the 🌎.
       Also, I ❤️ working with teams that are <Highlight>passionate</Highlight> about <Highlight>people</Highlight>👫 and work together to find the best way to <Highlight>communicate</Highlight> their <Highlight>products</Highlight> and <Highlight>ideas</Highlight> to the 🌍.
       I'm <Highlight>currently looking</Highlight> to find such a team to <Highlight>join</Highlight>.
