@@ -16,9 +16,9 @@ const IndexPage = (props) => (
 
     <Intro>
       <Highlight>Hello</Highlight> 👋🏽 and welcome. My name is <Highlight>Antonio</Highlight> and I 💖 the <Highlight>Web</Highlight>.
-      I 💓 it so much, that I've based my livelihood on it since it has been a <Highlight>passion</Highlight> of mine since day one.
+      I 💓 its technology and I 💞 finding technical solutions to make it better. In short, it's my <Highlight>passion</Highlight> and my livelihood.
       I 💘 how it can <Highlight>connect</Highlight>, <Highlight>teach</Highlight> and <Highlight>entertain</Highlight> us from anywhere in the 🌎.
-      I also ❤️ working with teams that are <Highlight>passionate</Highlight> about <Highlight>people</Highlight>👫 and work together to find the best way to <Highlight>communicate</Highlight> their <Highlight>products</Highlight> and <Highlight>ideas</Highlight> to the 🌍.
+      Also, I ❤️ working with teams that are <Highlight>passionate</Highlight> about <Highlight>people</Highlight>👫 and work together to find the best way to <Highlight>communicate</Highlight> their <Highlight>products</Highlight> and <Highlight>ideas</Highlight> to the 🌍.
       I'm <Highlight>currently looking</Highlight> to find such a team to <Highlight>join</Highlight>.
       I hope that the <Highlight>projects</Highlight> and <Highlight>experience</Highlight> presented here show <Highlight>you</Highlight> that I'm a great person for <Highlight>your team</Highlight>.
       Sincerely, <Highlight>Antonio</Highlight> 👨🏽‍💻.
@@ -73,7 +73,7 @@ const IndexPage = (props) => (
       )}
     />
 
-    <Spacer />
+    <Spacer spacerStyle={{height: 100 + "px"}} />
   </>
 );
 
