@@ -8,8 +8,6 @@ import { Highlight } from 'components/intro/Highlight';
 import { Spacer } from 'components/spacer/Spacer';
 import { Button } from 'components/button/Button';
 
-import pdf from 'assets/pdf/Antonio_Almena_Resume.pdf';
-
 export default () => (
   <>
     <Helmet title="Resume" />
@@ -44,7 +42,7 @@ export default () => (
             <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.【ツ】</li>
           </ul>
           <br/>
-          <Button to={pdf}>Download Resume</Button>
+          <Button to={'https://s3.amazonaws.com/almena/Antonio_Almena_Resume.pdf'}>Download Resume</Button>
         </>
       )}
     />
