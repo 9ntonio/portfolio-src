@@ -2,15 +2,15 @@
 
 .footer {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 
   &__content {
     display: flex;
     justify-content: space-between;
 
-    padding: 10px 0;
+    padding: 10px 0px;
 
     border-bottom: 20px solid $color-accent;
   }
@@ -20,25 +20,25 @@
   }
 
   &__item {
-    path { // stylelint-disable-line
-      fill: #000000;
+    path {
       transition: 200ms fill ease-in-out;
+      fill: #000;
     }
 
     margin-left: 20px;
 
-    &:hover path{      
+    &:hover path {
       fill: $color-accent;
     }
   }
 
   &__logo {
-    path { // stylelint-disable-line
-      fill: rgba($color: #000000, $alpha: .7);
+    path {
       transition: 200ms fill ease-in-out;
+      fill: rgba($color: #000, $alpha: 0.7);
     }
 
-    &:hover path{      
+    &:hover path {
       fill: $color-accent;
     }
   }

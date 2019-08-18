@@ -2,16 +2,14 @@
 
 .intro {
   padding: 30px 0;
-
   border-bottom: 3px dashed $color-accent-opacity-black;
 
   @media (min-width: $min-768) {
-    padding: 60px 0;
+    padding: 60px 0px;
   }
 
   &__col {
     @include grid-col;
-
     @media (min-width: $min-768) {
       @include grid-col(12);
     }
@@ -19,26 +17,24 @@
 
   &__text {
     @include rf(26, 32);
-
     font-family: $font-heading;
     font-weight: 300;
   }
 
   &__subtext {
     @include rf(26, 24);
-    
     margin-top: 20px;
     font-family: $font-family;
   }
 
   a {
     text-decoration: none;
-    color: black;
+    color: #000;
     transition: 200ms color ease-in-out;
-    
-    &:hover{
+
+    &:hover {
       color: $color-accent;
     }
+
   }
-  
 }

@@ -133,6 +133,6 @@ export default () => (
       )}
     />
 
-    <Spacer spacerStyle={{height: 170 + "px"}} />
+    <Spacer spacerStyle={{ height: `${170}px`}} />
   </>
 );

@@ -1,10 +1,10 @@
 import * as React from 'react';
 
 interface ISpacer {
-  spacerStyle: Object;
+  spacerStyle: object;
 }
 
-export const Spacer = ({spacerStyle} : ISpacer) => (
+export const Spacer = ({spacerStyle}: ISpacer) => (
   <div style={spacerStyle} >
     &nbsp;
   </div>

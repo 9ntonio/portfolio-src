@@ -73,7 +73,7 @@ const IndexPage = (props) => (
       )}
     />
 
-    <Spacer spacerStyle={{height: 100 + "px"}} />
+    <Spacer spacerStyle={{height: `${100}px`}} />
   </>
 );
 

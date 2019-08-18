@@ -2,21 +2,15 @@
 
 .link {
   display: flex;
-
   margin-left: 30px;
-
   @media (max-width: $max-480) {
-    margin-left: 15px; 
+    margin-left: 15px;
   }
 
   text-decoration: none;
-
   font-weight: 700;
-
   font-size: 14px;
-
-  color: #000000;
-
+  color: #000;
   transition: 200ms color ease-in-out;
 
   &:first-of-type {
@@ -29,15 +23,14 @@
 
   &__icon {
     position: relative;
-
     margin-right: 5px;
 
-    path { // stylelint-disable-line
-      fill: #000000;
+    path {
       transition: 200ms fill ease-in-out;
+      fill: #000;
     }
-    
-    &:hover path{
+
+    &:hover path {
       fill: $color-accent;
     }
 

@@ -10,8 +10,7 @@
   &__content {
     display: flex;
     align-items: center;
-
-    padding: $gutter 0;
+    padding: $gutter 0px;
   }
 
   &__logo {
@@ -23,18 +22,18 @@
       height: 16px;
       width: auto;
 
-      path { // stylelint-disable-line
-        fill: rgba($color: #000000, $alpha: .7);
+      path {
         transition: 200ms fill ease-in-out;
+        fill: rgba($color: #000, $alpha: 0.7);
       }
 
-      &:hover path{      
+      &:hover path {
         fill: $color-accent;
       }
 
       @media (min-width: $min-768) {
-        height: 20px;
         top: 29px;
+        height: 20px;
       }
 
       @media (max-width: $max-480) {
@@ -51,19 +50,18 @@
       width: auto;
       visibility: hidden;
 
-      path { // stylelint-disable-line
-        fill: rgba($color: #000000, $alpha: .7);
+      path {
         transition: 200ms fill ease-in-out;
+        fill: rgba($color: #000, $alpha: 0.7);
       }
 
-      &:hover path{      
+      &:hover path {
         fill: $color-accent;
       }
 
       @media (max-width: $max-480) {
         visibility: visible;
       }
-      
     }
   }
 

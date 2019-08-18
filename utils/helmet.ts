@@ -1,8 +1,8 @@
 const title = 'Antonio Almena';
 const description = 'The portfolio site of Antonio Almena';
 
-const favicon = require('assets/images/favicon.png');
-const share = require('assets/images/share.png');
+const favicon = import('assets/images/favicon.png');
+const share = import('assets/images/share.png');
 
 export const helmet = {
   title,

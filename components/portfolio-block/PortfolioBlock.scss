@@ -1,17 +1,14 @@
 @import '~styles/config';
 
 .portfolio {
-  padding: 50px 0;
-
+  padding: 50px 0px;
   border-bottom: 3px dashed $color-accent-opacity-black;
-
   @media (min-width: $min-768) {
-    padding: 80px 0;
+    padding: 80px 0px;
   }
 
   &__col {
     @include grid-col;
-
     @media (min-width: $min-768) {
       @include grid-col(7);
     }
@@ -19,9 +16,7 @@
 
   &__pic {
     @include grid-col;
-
     margin-bottom: 20px;
-    
     @media (min-width: $min-768) {
       @include grid-col(5);
     }
@@ -29,35 +24,29 @@
 
   &__heading {
     @include rf(16, 24);
-
     margin-bottom: 5px;
-
     font-family: $font-heading;
     font-weight: 700;
 
     &::before {
-      content: '\02794 ';
-      color: $color-accent;
+      content: '\02794';
       margin-right: 5px;
+      color: $color-accent;
     }
   }
 
   &__description {
     @include rf(16, 18);
-
     font-weight: 300;
     line-height: (26 / 16);
 
-    a { // stylelint-disable-line
+    a {
       text-decoration: none;
       font-weight: 400;
-
       color: #000;
-
       transition: 200ms color ease-in-out;
 
-      &:hover { // stylelint-disable-line
-        //opacity: 0.5;
+      &:hover {
         color: darkorange;
       }
     }
@@ -65,10 +54,10 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: #000;
     transition: 200ms color ease-in-out;
-    
-    &:hover{
+
+    &:hover {
       color: $color-accent;
     }
   }
