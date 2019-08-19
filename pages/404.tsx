@@ -6,7 +6,7 @@ import { Video } from 'components/video/Video';
 
 export default () => (
   <>
-    <Helmet title="⚠️ 404 Page Not Found ⚠️" />
+    <Helmet title="Oh Boy!" />
 
     <Intro>
       <h1>Hello 👋🏽 It looks like the page you are looking for was not found.</h1>
