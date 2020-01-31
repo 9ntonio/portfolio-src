@@ -1,4 +1,4 @@
-## Portfolio-Src
+# Portfolio-Src
 
 This repository is used as git submodule for the "src" folder of the [`portfolio starter`](https://github.com/9ntonio/portfolio). During the installation process of the portfolio, the submodule is resolved and this repository is cloned into the freshly created app.
 
@@ -8,7 +8,7 @@ Please note that I added a video component, a spacer component, and some portfol
 
 In order to install the submodule correctly, please make sure to follow these directions:
 
-### [Portfolio](https://github.com/9ntonio/portfolio)
+## [Portfolio](https://github.com/9ntonio/portfolio)
 
 On the root of `portfolio`, pull updates from `portfolio-src`
 
