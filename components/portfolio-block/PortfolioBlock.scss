@@ -3,6 +3,7 @@
 .portfolio {
   padding: 50px 0px;
   border-bottom: 3px dashed $color-accent-opacity-black;
+
   @media (min-width: $min-768) {
     padding: 80px 0px;
   }

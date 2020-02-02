@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Intro } from 'components/intro/Intro';
+import { Video } from 'components/video/Video';
 import { Highlight } from 'components/intro/Highlight';
 import { HighlightSmall } from 'components/intro/HighlightSmall';
 import { BlockText } from 'components/block-text/BlockText';
@@ -12,12 +13,14 @@ import { Spacer } from 'components/spacer/Spacer';
 
 const IndexPage = (props) => (
   <>
-    <Helmet title="Home" />
+    <Helmet title="IO" />
 
     <Intro>
       <Highlight>Hello</Highlight> 👋🏽 my name is <Highlight>Antonio</Highlight>  and I live in <Highlight>San Francisco</Highlight> 🌉. I'm a developer who 💖 working on projects that combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and <Highlight>Web APIs</Highlight>.
       I'm currently looking for oppurtunities that can benefit from my <Highlight>Experience</Highlight> and <Highlight>POV</Highlight>. Below are some recent projects I've worked on 🚧.
     </Intro>
+
+    <Video to="https://vimeo.com/388860526" header="While you're here, enjoy a bit of Paris." />
 
     <PortfolioBlock
       data={[

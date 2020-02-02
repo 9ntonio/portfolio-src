@@ -12,6 +12,6 @@ export default () => (
       <h1>Hello 👋🏽 It looks like the page you are looking for was not found.</h1>
     </Intro>
 
-    <Video to="https://vimeo.com/54784090" />
+    <Video to="https://vimeo.com/54784090" header="While you're here, enjoy a bit of Paris." />
   </>
 );

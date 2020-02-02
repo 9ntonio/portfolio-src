@@ -2,6 +2,7 @@
 
 .video {
   padding: 60px 0;
+  border-bottom: 3px dashed $color-accent-opacity-black;
 
   @media (max-width: $max-720) {
     height: 10px;
@@ -26,5 +27,16 @@
     @include rf(16, 24);
     font-weight: 300;
     line-height: (26 / 14);
+  }
+
+  .player_wrapper {
+    position: relative;
+    padding-top: 66% /* Player ratio: 100 / (1728 / 1080) */
+  }
+
+  .react_player {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
