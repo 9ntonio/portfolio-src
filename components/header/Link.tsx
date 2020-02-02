@@ -14,6 +14,7 @@ export const Link = ({ name, to, icon }: ILinkProps) => {
   const isLink = (typeof to !== 'undefined');
   const isExternal = isLink && /^((https?:)?\/\/|[0-9a-zA-Z]+:)/.test(to || '');
   const isEmail = isLink && /^([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.])/.test(to);
+  const isPhone = isLink && /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(to);
 
   const content = () => (
     <>
@@ -38,6 +39,15 @@ export const Link = ({ name, to, icon }: ILinkProps) => {
       <a
         className={s.link}
         href={'mailto:' + to}
+      >
+        {content()}
+      </a>
+    );
+  } else if (isPhone) {
+    return (
+      <a
+        className={s.link}
+        href={'tel:' + to}
       >
         {content()}
       </a>

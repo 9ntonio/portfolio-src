@@ -5,7 +5,6 @@ import Logo from 'assets/svg/logo.svg';
 import Twitter from 'assets/svg/twitter.svg';
 import Github from 'assets/svg/github.svg';
 import Instagram from 'assets/svg/instagram.svg';
-import Behance from 'assets/svg/behance-logo.svg';
 import Linkedin from 'assets/svg/linkedin.svg';
 
 import { helmet } from 'utils/helmet';
@@ -34,7 +33,7 @@ export default ({ children }: IAppLayoutProps) => (
 
       <HeaderLink
         name="Contact"
-        to="antonio.almena.sf@gmail.com"
+        to="3238935161"
       />
 
       <HeaderLink
@@ -49,11 +48,10 @@ export default ({ children }: IAppLayoutProps) => (
     <Footer
       logo={<Logo />}
       social={[
-        { icon: <Twitter />, to: 'https://twitter.com/9ntonio' },
         { icon: <Github />, to: 'https://github.com/9ntonio/portfolio' },
-        { icon: <Instagram />, to: 'https://www.instagram.com/9ntonio' },
+        { icon: <Twitter />, to: 'https://twitter.com/9ntonio' },
         { icon: <Linkedin />, to: 'https://www.linkedin.com/in/antonio-almena/' },
-        { icon: <Behance />, to: 'https://www.behance.net/almena' },
+        { icon: <Instagram />, to: 'https://www.instagram.com/9ntonio' },
       ]}
     />
 

@@ -15,19 +15,14 @@ const IndexPage = (props) => (
     <Helmet title="Home" />
 
     <Intro>
-      <Highlight>Hello</Highlight> 👋🏽 and welcome. My name is <Highlight>Antonio</Highlight> and I 💖 the <Highlight>Web</Highlight>.
-      I 💓 its technology and I 💞 finding technical solutions to make it better. In short, it's my <Highlight>passion</Highlight> and my <Highlight>livelihood</Highlight>.
-      I 💘 how it can <Highlight>connect</Highlight>, <Highlight>teach</Highlight> and <Highlight>entertain</Highlight> us from anywhere in the 🌎.
-      Also, I ❤️ working with teams that are <Highlight>passionate</Highlight> about <Highlight>people</Highlight>👫 and work together to find the best way to <Highlight>communicate</Highlight> their <Highlight>products</Highlight> and <Highlight>ideas</Highlight> to the 🌍.
-      I'm <Highlight>currently looking</Highlight> to find such a team to <Highlight>join</Highlight>.
-      I hope that the <Highlight>projects</Highlight> and <Highlight>experience</Highlight> presented here show <Highlight>you</Highlight> that I'm a great person for <Highlight>your team</Highlight>.
-      Sincerely, <Highlight>Antonio</Highlight> 👨🏽‍💻.
+      <Highlight>Hello</Highlight> 👋🏽 my name is <Highlight>Antonio</Highlight>  and I live in <Highlight>San Francisco</Highlight> 🌉. I'm a developer who 💖 working on projects that combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and <Highlight>Web APIs</Highlight>.
+      I'm currently looking for oppurtunities that can benefit from my <Highlight>Experience</Highlight> and <Highlight>POV</Highlight>. Below are some recent projects I've worked on 🚧.
     </Intro>
 
     <PortfolioBlock
       data={[
         { heading: 'Playstation Vue',
-          description: 'Odopod implemented the iOS companion app as well as the Chromecast app for Sony\'s revolutionary IPTV service. This app includes live TV, DVR, and VOD features using integration with MLBAM\'s content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.',
+          description: 'Odopod implemented the iOS companion app as well (as the Chromecast app) for Sony\'s IPTV service. This app included live TV, DVR, and VOD features using integration with MLBAM\'s content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.',
           image: <Img fluid={props.data.imageVue.childImageSharp.fluid} alt={'Antonio Almena PlayStation Vue'} />,
           to: 'https://www.odopod.com/case-studies/ps-vue',
         },
@@ -63,12 +58,12 @@ const IndexPage = (props) => (
       heading="So what's under the hood?"
       description={(
         <>
-          This site is based on <a href="https://ueno.co/" target="_blank" rel="noopener noreferrer"> Ueno's</a> starter (which in turn was an extension of the <a href="https://github.com/gatsbyjs/gatsby-starter-default" target="_blank" rel="noopener noreferrer" >Gatsby starter</a>) which you can check out here: <a href="https://github.com/ueno-llc/create-ueno-app" target="_blank" rel="noopener noreferrer">create-ueno-app</a>.
-          If you want a starter kit that has no portfolio structure what so ever, I would highly recommend using the Ueno starter kit.
-          <br/><br/>
-          This site uses: <HighlightSmall>TypeScript</HighlightSmall>, <HighlightSmall>SCSS</HighlightSmall>, <HighlightSmall>CSS Modules</HighlightSmall>, <HighlightSmall>React Hooks</HighlightSmall>, <HighlightSmall>root resolver</HighlightSmall>, <HighlightSmall>GraphQL</HighlightSmall> and <HighlightSmall>code splitting</HighlightSmall>.
-          <br/><br/>
-          &lt;&gt; with 💝in San Francisco. ✌🏼
+          <p>This site is based on <a href="https://ueno.co/" target="_blank" rel="noopener noreferrer"> Ueno's</a> starter (which in turn was an extension of the <a href="https://github.com/gatsbyjs/gatsby-starter-default" target="_blank" rel="noopener noreferrer" >Gatsby starter</a>) which you can check out here: <a href="https://github.com/ueno-llc/create-ueno-app" target="_blank" rel="noopener noreferrer">create-ueno-app</a>.
+          If you want a starter kit that has no portfolio structure what so ever, I would highly recommend using the Ueno starter kit.</p>
+
+          <p>This site uses: <HighlightSmall>TypeScript</HighlightSmall>, <HighlightSmall>SCSS</HighlightSmall>, <HighlightSmall>CSS Modules</HighlightSmall>, <HighlightSmall>React Hooks</HighlightSmall>, <HighlightSmall>root resolver</HighlightSmall>, <HighlightSmall>GraphQL</HighlightSmall> and <HighlightSmall>code splitting</HighlightSmall>.</p>
+
+          <p>&lt;&gt; with 💝in San Francisco. ✌🏼</p>
         </>
       )}
     />
