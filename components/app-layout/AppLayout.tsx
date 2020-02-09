@@ -51,7 +51,6 @@ export default ({ children }: IAppLayoutProps) => (
         { icon: <Github />, to: 'https://github.com/9ntonio/portfolio' },
         { icon: <Twitter />, to: 'https://twitter.com/9ntonio' },
         { icon: <Linkedin />, to: 'https://www.linkedin.com/in/antonio-almena/' },
-        { icon: <Instagram />, to: 'https://www.instagram.com/9ntonio' },
       ]}
     />
 

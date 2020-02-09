@@ -1,7 +1,7 @@
 @import '~styles/config';
 
 .video {
-  padding: 60px 0;
+  padding: 50px 0;
   border-bottom: 3px dashed $color-accent-opacity-black;
 
   @media (max-width: $max-720) {
@@ -23,10 +23,44 @@
     }
   }
 
-  &__description {
+  &__heading {
     @include rf(16, 24);
+    margin-bottom: 5px;
+    font-family: $font-heading;
+    font-weight: 700;
+
+    &::before {
+      content: '\02794';
+      margin-right: 5px;
+      color: $color-accent;
+    }
+  }
+
+  &__description {
+    @include rf(16, 18);
     font-weight: 300;
-    line-height: (26 / 14);
+    line-height: (26 / 16);
+
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      color: #000;
+      transition: 200ms color ease-in-out;
+
+      &:hover {
+        color: darkorange;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    transition: 200ms color ease-in-out;
+
+    &:hover {
+      color: $color-accent;
+    }
   }
 
   .player_wrapper {
