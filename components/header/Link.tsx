@@ -47,7 +47,7 @@ export const Link = ({ name, to, icon }: ILinkProps) => {
     return (
       <a
         className={s.link}
-        href={'tel:' + to}
+        href={'sms:' + to}
       >
         {content()}
       </a>

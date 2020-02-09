@@ -38,7 +38,11 @@ export const Video = ({to, header, description, link}: IVideoProp) => {
                   url={to}
                   width='100%'
                   height='100%'
-                  playing
+                  controls={true}
+                  frameborder='0'
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
                 />
               </div>
             </div>
@@ -46,7 +50,7 @@ export const Video = ({to, header, description, link}: IVideoProp) => {
         </div>
       </Container>
       </>
-    );
+    )
   } else {
     return (
       <>
@@ -70,7 +74,11 @@ export const Video = ({to, header, description, link}: IVideoProp) => {
                   url={to}
                   width='100%'
                   height='100%'
-                  playing
+                  controls={true}
+                  frameborder='0'
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
                 />
               </div>
             </div>

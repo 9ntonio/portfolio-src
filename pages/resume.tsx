@@ -25,24 +25,21 @@ export default () => (
       subheading="Self Employed | Oct 2018 - Present"
       description={(
         <>
-          I'm an experienced UX design and development leader who creates thoughtful and powerful mobile and web applications.
-          <br /><br />
-          I have experience developing (and releasing) various consumer products that contain various complex, multi-functional sub projects. I'm able to collaborate with internal teams (and client partners) while also being able to motivate and empower my team to reach ambitious goals that meet project milestones and budgetary constraints.
-          <br /><br />
-          I have a design background that allows me to use my keen eye for detail on both an aesthetic and technical scale.
-          <br/><br/>
-          <u>Here are a few accomplishemets to help you understand my previous experience:</u>
+          <p>I'm an experienced UX design and development lead who enjoys working on mobile and web applications.</p>
+
+          <p>I've been able to work on consumer products with great teams in marketing as well as growth/IT.</p>
+
+          <p>I enjoy contimplating the details of an applications aesthetic and technical sides.</p>
+
+          <u>Here are a few headlines:</u>
           <br/>
           <ul>
-            <li>I have 10+ years of experience specializing in department building and management in companies with 100+ employees.</li>
-            <li>I've built and led a department consisting of 20+ employees ranging from engineers, producers, art directors and QA.</li>
-            <li>I have experience developing and releasing various consumer products to market.</li>
-            <li>I also have experience project managing complex, multi-functional projects with many moving parts.</li>
-            <li>I'm able to motivate and empower my entire team to reach ambitious goals while keeping a positive attitude.</li>
-            <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.【ツ】</li>
+            <li>I've helped in department building and team growth.</li>
+            <li>I've worked on developing and releasing various consumer products.</li>
+            <li>I'm able to project manage projects with various moving parts.</li>
+            <li>Amature Cheerleader 🔈</li>
+            <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.</li>
           </ul>
-          <br/>
-          <Button to={'https://s3.amazonaws.com/almena/Antonio_Almena_Resume.pdf'}>Download Resume</Button>
         </>
       )}
     />
@@ -60,7 +57,7 @@ export default () => (
           • Collaborated with engineers, designers, product managers and support teams to implement our strategies across various products.<br/>
           • Hands on development.
           <br/><br/>
-          <HighlightSmall>Technologies Used:</HighlightSmall> HTML5, CSS3, SCSS, JavaScript, JQuery, Git, WebPack, React, Java, Swift, PHP, Yarn, Mocha, Chai, Python, Ember & Node.
+          <HighlightSmall>Code:</HighlightSmall> JavaScript, Git, React, Java, Swift, PHP, & Node.
         </>
       )}
     />
@@ -76,7 +73,7 @@ export default () => (
           • Hired, mentored and set professional goals for engineering team.<br/>
           • Hands on development.
           <br/><br/>
-          <HighlightSmall>Technologies Used:</HighlightSmall> HTML5, CSS3, JavaScript, JQuery, PHP, MySQL, Apache, Linux & Flash.
+          <HighlightSmall>Code:</HighlightSmall> JavaScript, Git, PHP, MySQL, Apache, Linux.
         </>
       )}
     />
@@ -87,8 +84,6 @@ export default () => (
       description={(
         <>
           Instructor for the Design Department. I taught the equivalent of a "Web 101" course to design students.
-          <br/><br/>
-          <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript, JQuery & Flash.
         </>
       )}
     />
@@ -102,8 +97,6 @@ export default () => (
           • Conducted code reviews for team members to look for optimizations, maintain project standards, and share knowledge.<br/>
           • Spearheaded internal movement to create our own code library.<br/>
           • Hands on development.
-          <br/><br/>
-          <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript , JQuery, PHP, MySQL, Apache Server, Linux & Flash.
         </>
       )}
     />
@@ -117,8 +110,6 @@ export default () => (
           • Spearheaded internal movement to create our own code library.<br/>
           • Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.<br/>
           • Hands on development.
-          <br/><br/>
-          <HighlightSmall>Technologies Used:</HighlightSmall> HTML, CSS, JavaScript, JQuery, PHP & Flash.
         </>
       )}
     />

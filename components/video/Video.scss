@@ -5,8 +5,7 @@
   border-bottom: 3px dashed $color-accent-opacity-black;
 
   @media (max-width: $max-720) {
-    height: 10px;
-    visibility: hidden;
+    @include grid-col(12);
   }
 
   &__vid {
@@ -40,6 +39,7 @@
     @include rf(16, 18);
     font-weight: 300;
     line-height: (26 / 16);
+    margin-top: 10px;
 
     a {
       text-decoration: none;
@@ -63,9 +63,10 @@
     }
   }
 
+  /* Player ratio: 100 / (1728 / 1080) */
   .player_wrapper {
     position: relative;
-    padding-top: 66% /* Player ratio: 100 / (1728 / 1080) */
+    padding-top: 66%
   }
 
   .react_player {
