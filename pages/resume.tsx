@@ -36,7 +36,7 @@ export default () => (
           <ul>
             <li>I've helped in department building and team growth.</li>
             <li>I've worked on developing and releasing various consumer products.</li>
-            <li>I'm able to project manage projects with various moving parts.</li>
+            <li>I'm able to manage multiple projects with various moving parts.</li>
             <li>Amature Cheerleader 🔈</li>
             <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.</li>
           </ul>
