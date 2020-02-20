@@ -38,11 +38,10 @@ export const Video = ({to, header, description, link}: IVideoProp) => {
                   url={to}
                   width='100%'
                   height='100%'
+                  frameBorder='0'
                   controls={true}
-                  frameborder='0'
-                  webkitallowfullscreen
-                  mozallowfullscreen
-                  allowfullscreen
+                  playing={true}
+                  autoplay={true}
                 />
               </div>
             </div>
@@ -74,11 +73,10 @@ export const Video = ({to, header, description, link}: IVideoProp) => {
                   url={to}
                   width='100%'
                   height='100%'
+                  frameBorder='0'
                   controls={true}
-                  frameborder='0'
-                  webkitallowfullscreen
-                  mozallowfullscreen
-                  allowfullscreen
+                  playing={true}
+                  autoplay={true}
                 />
               </div>
             </div>
