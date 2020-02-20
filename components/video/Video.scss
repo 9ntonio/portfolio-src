@@ -1,17 +1,13 @@
 @import '~styles/config';
 
 .video {
-  padding: 50px 0;
+  padding: 50px 0px;
   border-bottom: 3px dashed $color-accent-opacity-black;
-
-  @media (max-width: $max-720) {
-    @include grid-col(12);
-  }
 
   &__vid {
     @include grid-col;
     @media (min-width: $min-768) {
-      @include grid-col(10);
+      @include grid-col(12);
     }
   }
 
@@ -39,7 +35,11 @@
     @include rf(16, 18);
     font-weight: 300;
     line-height: (26 / 16);
-    margin-top: 10px;
+    margin-top: 20px;
+
+    p {
+      margin-bottom: 0px;
+    }
 
     a {
       text-decoration: none;
