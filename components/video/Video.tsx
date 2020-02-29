@@ -77,6 +77,7 @@ export const Video = ({to, header, description, link}: IVideoProp) => {
                   controls={true}
                   playing={true}
                   autoplay={true}
+                  muted={true}
                 />
               </div>
             </div>

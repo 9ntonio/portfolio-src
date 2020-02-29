@@ -1,7 +1,7 @@
 @import '~styles/config';
 
 .video {
-  padding: 50px 0px;
+  padding: 40px 0px;
   border-bottom: 3px dashed $color-accent-opacity-black;
 
   &__vid {
@@ -20,7 +20,7 @@
 
   &__heading {
     @include rf(16, 24);
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-family: $font-heading;
     font-weight: 700;
 
@@ -63,10 +63,10 @@
     }
   }
 
-  /* Player ratio: 100 / (1728 / 1080) */
+  /* Player ratio: 100 / (960/540) */
   .player_wrapper {
     position: relative;
-    padding-top: 66%
+    padding-top: 56.25%
   }
 
   .react_player {

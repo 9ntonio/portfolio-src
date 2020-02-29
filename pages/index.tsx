@@ -20,7 +20,7 @@ const IndexPage = (props) => (
       I'm currently looking for oppurtunities that can benefit from my <Highlight>Experience</Highlight> and <Highlight>Savoire Faire</Highlight>✨. Here are some projects that I've worked on recently. 🧑🏽‍💻
     </Intro>
 
-    <Video to="https://vimeo.com/388860526?playsinline=0" header="Gusto Rebrand" link="https://gusto.com/brand"
+    <Video to="https://vimeo.com/374826636" header="Gusto Rebrand" link="https://gusto.com/brand"
       description="I was recently hired by <a href='https://www.melonusa.com/' target='_blank'rel='noopener noreferrer'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank'rel='noopener noreferrer'>Gusto</a> with their brand refresh. As the lead front end developer (of a team of 6), I worked closely with the Brand Studio and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto 🤘. As a means to document the rebranding process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank'rel='noopener noreferrer'>a detailed outline of the process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank'rel='noopener noreferrer'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank'rel='noopener noreferrer'>design guidelines</a>." />
 
     <PortfolioBlock
