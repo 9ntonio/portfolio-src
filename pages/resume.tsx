@@ -6,7 +6,6 @@ import { BlockTextResume } from 'components/block-text/BlockTextResume';
 import { HighlightSmall } from 'components/intro/HighlightSmall';
 import { Highlight } from 'components/intro/Highlight';
 import { Spacer } from 'components/spacer/Spacer';
-import { Button } from 'components/button/Button';
 
 export default () => (
   <>
@@ -21,7 +20,7 @@ export default () => (
     </Intro>
 
     <BlockTextResume
-      heading="Technical Consultant"
+      heading="Engineering Technologist"
       subheading="Self Employed | Oct 2018 - Present"
       description={(
         <>
