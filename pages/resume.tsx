@@ -20,7 +20,7 @@ export default () => (
     </Intro>
 
     <BlockTextResume
-      heading="Engineering Technologist"
+      heading="Engineer/Creative Technologist"
       subheading="Self Employed | Oct 2018 - Present"
       description={(
         <>
@@ -36,7 +36,7 @@ export default () => (
             <li>I've helped in department building and team growth.</li>
             <li>I've worked on developing and releasing various consumer products.</li>
             <li>I'm able to manage multiple projects with various moving parts.</li>
-            <li>Amature Cheerleader 🔈</li>
+            <li>Amature Cheerleader 🔊</li>
             <li>Awarded the <a href="https://www.commarts.com/project/22631/inside-your-scion" target="_blank" rel="noopener noreferrer">Communication Arts Interactive Annual Award</a>.</li>
           </ul>
         </>
@@ -55,8 +55,6 @@ export default () => (
           • Adept at creating and managing scope, budget and timelines for various projects.<br />
           • Collaborated with engineers, designers, product managers and support teams to implement our strategies across various products.<br/>
           • Hands on development.
-          <br/><br/>
-          <HighlightSmall>Code:</HighlightSmall> JavaScript, Git, React, Java, Swift, PHP, & Node.
         </>
       )}
     />
@@ -71,8 +69,6 @@ export default () => (
           • Created and presented creative and technical solutions for various client projects.<br/>
           • Hired, mentored and set professional goals for engineering team.<br/>
           • Hands on development.
-          <br/><br/>
-          <HighlightSmall>Code:</HighlightSmall> JavaScript, Git, PHP, MySQL, Apache, Linux.
         </>
       )}
     />
