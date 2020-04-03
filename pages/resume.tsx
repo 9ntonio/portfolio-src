@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 
 import { Intro } from 'components/intro/Intro';
 import { BlockTextResume } from 'components/block-text/BlockTextResume';
-import { HighlightSmall } from 'components/intro/HighlightSmall';
 import { Highlight } from 'components/intro/Highlight';
 import { Spacer } from 'components/spacer/Spacer';
 
@@ -24,7 +23,7 @@ export default () => (
       subheading="Self Employed | Oct 2018 - Present"
       description={(
         <>
-          <p>I'm an experienced UX design and development lead who enjoys working on mobile and web applications.</p>
+          <p>I'm an experienced UX design and engineering lead who enjoys working on mobile and web applications.</p>
 
           <p>I've been able to work on consumer products with great teams in marketing as well as growth/IT.</p>
 
@@ -78,7 +77,7 @@ export default () => (
       subheading="California State University, Northridge | Jan 2005 – Dec 2007"
       description={(
         <>
-          Instructor for the Design Department. I taught the equivalent of a "Web 101" course to design students.
+          Instructor for the Design Department. I taught the equivalent of a "Web Design 101" course to design students.
         </>
       )}
     />
