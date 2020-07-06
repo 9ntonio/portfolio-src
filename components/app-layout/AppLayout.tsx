@@ -27,7 +27,7 @@ export default ({ children }: IAppLayoutProps) => (
     <Header>
       <HeaderLink name="Resume" to="/resume" />
 
-      <HeaderLink name="Contact" to="3238935161" />
+      <HeaderLink name="Contact" to="mailto:antonio.almena.sf@gmail.com" />
 
       <HeaderLink name="github" to="https://github.com/9ntonio/portfolio" icon={<Github />} />
     </Header>
