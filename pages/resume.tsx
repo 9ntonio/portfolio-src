@@ -124,17 +124,6 @@ export default () => (
     />
 
     <BlockTextResume
-      heading="Instructor"
-      subheading="California State University, Northridge | Jan 2005 – Dec 2007"
-      description={
-        <>
-          Instructor for the Design Department. I taught the equivalent of a "Web Design 101" course
-          to design students.
-        </>
-      }
-    />
-
-    <BlockTextResume
       heading="Senior Engineer"
       subheading="Heavenspot | Feb 2006 – Apr 2007"
       description={
