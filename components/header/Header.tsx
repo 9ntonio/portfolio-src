@@ -15,17 +15,12 @@ export const Header = ({ children }: IHeaderProps) => (
   <header className={s.header}>
     <div className={s.header__container}>
       <div className={s.header__content}>
-        <Link
-          to="/"
-          className={s.header__logo}
-        >
+        <Link to="/" className={s.header__logo}>
           <Logo className={s.header__logoSvg} />
           <LogoSmall className={s.header__logoSvgSmall} />
         </Link>
 
-        <div className={s.header__navigation}>
-          {children}
-        </div>
+        <div className={s.header__navigation}>{children}</div>
       </div>
     </div>
   </header>

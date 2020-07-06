@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Img from 'gatsby-image';
+// import Img from 'gatsby-image';
 
 import { Container } from 'components/container/Container';
 import { Row } from 'components/row/Row';
@@ -19,7 +19,6 @@ interface IPortfolioBlockProps {
 
 export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
   <Container>
-
     {data.map((item, i) => (
       <div className={s.portfolio} key={i}>
         <Row>
@@ -30,15 +29,14 @@ export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
           </div>
           <div className={s.portfolio__col}>
             <h3 className={s.portfolio__heading}>
-            <a href={item.to} target="_blank" rel="noopener noreferrer">
+              <a href={item.to} target="_blank" rel="noopener noreferrer">
                 {item.heading}
-            </a>
+              </a>
             </h3>
             <p className={s.portfolio__description}>{item.description}</p>
           </div>
         </Row>
       </div>
     ))}
-
   </Container>
 );

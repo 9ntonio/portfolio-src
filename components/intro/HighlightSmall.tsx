@@ -19,9 +19,5 @@ export const HighlightSmall = ({ children }: IHighlightSmallProps) => {
     ));
   };
 
-  return (
-    <>
-      {renderWords()}
-    </>
-  );
+  return <>{renderWords()}</>;
 };

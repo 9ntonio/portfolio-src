@@ -19,18 +19,10 @@ export const Intro = ({ children, subtext, to }: IIntroProps) => {
         <div className={s.intro}>
           <Row>
             <div className={s.intro__col}>
-              <p className={s.intro__text}>
-                {children}
-              </p>
+              <p className={s.intro__text}>{children}</p>
               <p className={s.intro__subtext}>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={to}
-                >
-                  <HighlightSmall>
-                    {subtext}
-                  </HighlightSmall>
+                <a target="_blank" rel="noopener noreferrer" href={to}>
+                  <HighlightSmall>{subtext}</HighlightSmall>
                 </a>
               </p>
             </div>
@@ -44,9 +36,7 @@ export const Intro = ({ children, subtext, to }: IIntroProps) => {
         <div className={s.intro}>
           <Row>
             <div className={s.intro__col}>
-              <p className={s.intro__text}>
-                {children}
-              </p>
+              <p className={s.intro__text}>{children}</p>
             </div>
           </Row>
         </div>

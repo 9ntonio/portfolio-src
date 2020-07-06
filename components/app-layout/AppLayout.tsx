@@ -25,21 +25,11 @@ export default ({ children }: IAppLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
-      <HeaderLink
-        name="Resume"
-        to="/resume"
-      />
+      <HeaderLink name="Resume" to="/resume" />
 
-      <HeaderLink
-        name="Contact"
-        to="3238935161"
-      />
+      <HeaderLink name="Contact" to="3238935161" />
 
-      <HeaderLink
-        name="github"
-        to="https://github.com/9ntonio/portfolio"
-        icon={<Github />}
-      />
+      <HeaderLink name="github" to="https://github.com/9ntonio/portfolio" icon={<Github />} />
     </Header>
 
     {children}

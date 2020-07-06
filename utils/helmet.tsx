@@ -1,8 +1,8 @@
 const title = 'Antonio Almena';
 const description = 'The portfolio site of Antonio Almena';
 
-const favicon = require('assets/images/favicon.png');
-const share = require('assets/images/share.png');
+import favicon from 'assets/images/favicon.png';
+import share from 'assets/images/share.png';
 const urlShare = `https://www.almena.io${share}`;
 
 export const helmet = {
@@ -30,7 +30,5 @@ export const helmet = {
     { name: 'twitter:creator', content: '@9ntonio' },
     { name: 'twitter:description', content: description },
   ],
-  link: [
-    { rel: 'icon', type: 'image/x-icon', href: favicon },
-  ],
+  link: [{ rel: 'icon', type: 'image/x-icon', href: favicon }],
 };

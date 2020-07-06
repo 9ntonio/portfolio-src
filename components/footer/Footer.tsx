@@ -18,25 +18,14 @@ export const Footer = ({ logo, social }: IFooterProps) => (
   <div className={s.footer}>
     <Container>
       <div className={s.footer__content}>
-        <a
-          href="https://github.com/9ntonio"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className={s.footer__logo} >{logo}</span>
+        <a href="https://github.com/9ntonio" target="_blank" rel="noopener noreferrer">
+          <span className={s.footer__logo}>{logo}</span>
         </a>
 
         <ul className={s.footer__list}>
           {social.map((item) => (
-            <li
-              key={item.to}
-              className={s.footer__item}
-            >
-              <a
-                href={item.to}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <li key={item.to} className={s.footer__item}>
+              <a href={item.to} target="_blank" rel="noopener noreferrer">
                 {item.icon}
               </a>
             </li>
