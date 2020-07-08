@@ -29,8 +29,8 @@ export default () => (
         <Highlight>Director</Highlight>👨🏽‍💻 who is adept at shepherding complex projects out the door🚪
         while maintaining <Highlight>design</Highlight> <Highlight>integrity</Highlight> and a{' '}
         <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the projects'{' '}
-        <Highlight>technology</Highlight> <Highlight>stack</Highlight>.&nbsp;👍🏽
-      </div>"
+        <Highlight>technology</Highlight> <Highlight>stack</Highlight>."&nbsp;👍🏽
+      </div>
     </Intro>
 
     <BlockTextResume
