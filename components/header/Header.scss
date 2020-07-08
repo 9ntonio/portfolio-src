@@ -18,7 +18,7 @@
       display: block;
       position: absolute;
       z-index: 1;
-      top: 32px;
+      top: 34px;
       height: 16px;
       width: auto;
 
@@ -31,13 +31,16 @@
         fill: $color-accent;
       }
 
+      @media (max-width: $max-480) {
+        visibility: hidden;
+      }
+
       @media (min-width: $min-768) {
-        top: 29px;
         height: 20px;
       }
 
-      @media (max-width: $max-480) {
-        visibility: hidden;
+      @media (min-width: $min-1280) {
+        top: 37px;
       }
     }
 
@@ -45,7 +48,7 @@
       display: block;
       position: absolute;
       z-index: 2;
-      top: 32px;
+      top: 34px;
       height: 16px;
       width: auto;
       visibility: hidden;

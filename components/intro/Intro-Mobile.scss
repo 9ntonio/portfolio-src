@@ -1,0 +1,11 @@
+@import '~styles/config';
+
+.intro_mobile {
+  &__mobile_hide {
+    display: none;
+
+    @media (min-width: $min-768) {
+      display: inline;
+    }
+  }
+}

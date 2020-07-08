@@ -58,7 +58,7 @@ const IndexPage = (props) => (
           to: 'https://store.google.com',
         },
         {
-          heading: 'Sony Global Web Transformation',
+          heading: 'Sony Global',
           description:
             'Odopod rebuilt Sony\'s entire global online presence. This large-scale, responsive redesign aligns dozens of fragmented regional sites under a single design system. Our technology powers this unification by providing a robust UI toolkit and HTML style guide for content creators. Part of my tasks as the Technical Director was to digest a 500 page guidelines manual that outlined the technology stack for this massive project that lasted over a year. Afterwards, it was my job to lead the external team assigned to this project to insure that they kept to Sony\'s technical standards as well as onboard new members to the Sony team.',
           image: (
@@ -151,7 +151,7 @@ const IndexPage = (props) => (
       }
     />
 
-    <Spacer spacerStyle={{ height: `${100}px` }} />
+    <Spacer spacerStyle={{ height: `${30}px` }} />
   </>
 );
 

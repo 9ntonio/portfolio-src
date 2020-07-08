@@ -29,7 +29,7 @@ export default ({ children }: IAppLayoutProps) => (
 
       <HeaderLink name="Contact" to="mailto:antonio@spacebase.one" />
 
-      <HeaderLink name="github" to="https://github.com/9ntonio/portfolio" icon={<Github />} />
+      <HeaderLink name="github" to="https://github.com/9ntonio" icon={<Github />} />
     </Header>
 
     {children}
@@ -37,7 +37,7 @@ export default ({ children }: IAppLayoutProps) => (
     <Footer
       logo={<Logo />}
       social={[
-        { icon: <Github />, to: 'https://github.com/9ntonio/portfolio' },
+        { icon: <Github />, to: 'https://github.com/9ntonio' },
         { icon: <Twitter />, to: 'https://twitter.com/9ntonio' },
         { icon: <Linkedin />, to: 'https://www.linkedin.com/in/antonio-almena/' },
       ]}

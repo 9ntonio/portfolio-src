@@ -1,8 +1,7 @@
 @import '~styles/config';
 
 .block_resume {
-  padding: 60px 0px;
-
+  padding: 50px 0px;
   border-bottom: 3px dashed $color-accent-opacity-black;
 
   ul {
@@ -30,7 +29,7 @@
   }
 
   &__heading {
-    @include rf(16, 24);
+    @include rf(22, 24);
     margin-bottom: 0px;
     font-family: $font-heading;
     font-weight: 700;
