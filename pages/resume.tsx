@@ -16,7 +16,7 @@ export default () => (
       requiring <Highlight>complex</Highlight> <Highlight>design</Highlight> and{' '}
       <Highlight>code</Highlight> <Highlight>deliverables</Highlight> 📩, I never once saw{' '}
       <Highlight>Antonio</Highlight> lose his cool 😎 or drop the ball 🎾 on{' '}
-      <Highlight>anything</Highlight>
+      <Highlight>anything.&nbsp;</Highlight>
       <div className={s.intro_mobile__mobile_hide}>
         He was a great <Highlight>communicator</Highlight>, had a
         very <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the technology

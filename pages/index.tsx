@@ -20,7 +20,7 @@ const IndexPage = (props) => (
       <Highlight>San Francisco</Highlight> 🌉. I'm an engineer who 💖 working on projects that
       combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and{' '}
       <Highlight>Web APIs</Highlight>. I'm currently looking for opportunities that can benefit from
-      my <Highlight>Experience</Highlight> and <Highlight>Savoire Faire</Highlight>✨. Here are some
+      my <Highlight>Experience</Highlight> and <Highlight>Savoire Faire.</Highlight>✨ Here are some
       projects that I've worked on recently. 🧑🏽‍💻
     </Intro>
 
