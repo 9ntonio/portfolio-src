@@ -46,7 +46,7 @@ export default () => (
 
           <p>
             I've been able to work on consumer products with great teams in marketing as well as
-            growth/IT.
+            growth.
           </p>
 
           <p>I enjoy contemplating the details of an applications aesthetic and technical sides.</p>
@@ -54,16 +54,17 @@ export default () => (
           <u>Here are a few headlines:</u>
           <br />
           <ul>
-            <li>I've helped in department building and team growth.</li>
-            <li>I've worked on developing and releasing various consumer products.</li>
+            <li>I've built design and development departments that scaled.</li>
+            <li>I've developed and released various consumer products.</li>
             <li>I'm able to manage multiple projects with various moving parts.</li>
-            <li>Amateur Cheerleader 🔊</li>
+            <li>Amateur Cheerleader 🔊 🛹</li>
             <li>
               Awarded the{' '}
               <a
                 href="https://www.commarts.com/project/22631/inside-your-scion"
                 target="_blank"
                 rel="noopener noreferrer"
+                className='umami--click--Resume-Heading-Scion'
               >
                 Communication Arts Interactive Annual Award
               </a>
@@ -80,7 +81,11 @@ export default () => (
       description={
         <>
           • Led an external team of engineers in building the responsive frontend for{' '}
-          <a href="https://www.sony.co.uk" target="_blank" rel="noopener noreferrer">
+          <a 
+            href="https://www.sony.co.uk" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className='umami--click--Resume-Sony'>
             sony.co.uk
           </a>
           .<br />• Led engineering team and architected with Sony the iOS and Chromecast
@@ -89,11 +94,16 @@ export default () => (
             href="https://www.odopod.com/case-studies/ps-vue"
             target="_blank"
             rel="noopener noreferrer"
+            className='umami--click--Resume-Vue'
           >
             PlayStation Vue
           </a>
           .<br />• Led engineering team and worked closely with Google to help create the{' '}
-          <a href="https://store.google.com" target="_blank" rel="noopener noreferrer">
+          <a 
+            href="https://store.google.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className='umami--click--Resume-Google'>
             Google online store.
           </a>
           <br />
@@ -151,7 +161,11 @@ export default () => (
       description={
         <>
           • Worked with a team of engineers focused on building the marketing site for{' '}
-          <a href="https://www.acura.com/" target="_blank" rel="noopener noreferrer">
+          <a 
+            href="https://www.acura.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className='umami--click--Resume-Acura'>
             Acura.com
           </a>
           .<br />
@@ -161,6 +175,7 @@ export default () => (
             href="https://www.commarts.com/project/22631/inside-your-scion"
             target="_blank"
             rel="noopener noreferrer"
+            className='umami--click--Resume-Scion'
           >
             Communication Arts Interactive Annual Award
           </a>
