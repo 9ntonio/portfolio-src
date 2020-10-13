@@ -54,7 +54,7 @@ export const Link = ({ name, to, icon, eventName }: ILinkProps) => {
 
   return (
     <InternalLink 
-      className={s.link} 
+      className={`${s.link} ${eventName}`} 
       to={to}>
       {content()}
     </InternalLink>
