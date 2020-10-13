@@ -8,9 +8,10 @@ interface ILinkProps {
   name: string;
   to: string;
   icon?: React.ReactNode;
+  eventName: string;
 }
 
-export const Link = ({ name, to, icon }: ILinkProps) => {
+export const Link = ({ name, to, icon, eventName }: ILinkProps) => {
   const isLink = typeof to !== 'undefined';
   const isExternal = isLink && /^((https?:)?\/\/|[0-9a-zA-Z]+:)/.test(to || '');
   const isEmail = isLink && /^([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.])/.test(to);
@@ -25,26 +26,36 @@ export const Link = ({ name, to, icon }: ILinkProps) => {
 
   if (isExternal) {
     return (
-      <a className={s.link} target="_blank" rel="noopener noreferrer" href={to}>
+      <a 
+        className={`${s.link} ${eventName}`} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        href={to}>
         {content()}
       </a>
     );
   } else if (isEmail) {
     return (
-      <a className={s.link} href={'mailto:' + to}>
+      <a 
+        className={`${s.link} ${eventName}`}  
+        href={'mailto:' + to}>
         {content()}
       </a>
     );
   } else if (isPhone) {
     return (
-      <a className={s.link} href={'sms:' + to}>
+      <a 
+        className={s.link} 
+        href={'sms:' + to}>
         {content()}
       </a>
     );
   }
 
   return (
-    <InternalLink className={s.link} to={to}>
+    <InternalLink 
+      className={s.link} 
+      to={to}>
       {content()}
     </InternalLink>
   );

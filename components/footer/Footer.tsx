@@ -7,6 +7,7 @@ import s from './Footer.scss';
 interface ISocial {
   icon: React.ReactNode;
   to: string;
+  eventName: string;
 }
 
 interface IFooterProps {
@@ -25,7 +26,11 @@ export const Footer = ({ logo, social }: IFooterProps) => (
         <ul className={s.footer__list}>
           {social.map((item) => (
             <li key={item.to} className={s.footer__item}>
-              <a href={item.to} target="_blank" rel="noopener noreferrer">
+              <a 
+                href={item.to} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={item.eventName} >
                 {item.icon}
               </a>
             </li>
