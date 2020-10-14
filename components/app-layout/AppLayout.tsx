@@ -39,7 +39,7 @@ export default ({ children }: IAppLayoutProps) => (
       social={[
         { icon: <Github />, eventName: "umami--click--footer-github", to: 'https://github.com/9ntonio' },
         { icon: <Twitter />, eventName: "umami--click--footer-twitter", to: 'https://twitter.com/9ntonio' },
-        { icon: <Linkedin />, eventName: "umami--click--footer-linkedIn", to: 'https://www.linkedin.com/in/antonio-almena/' },
+        { icon: <Linkedin />, eventName: "umami--click--footer-linkedin", to: 'https://www.linkedin.com/in/antonio-almena/' },
       ]}
     />
 
