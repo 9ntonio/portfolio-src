@@ -12,9 +12,10 @@ interface IVideoProp {
   header: string;
   description: string;
   link: string;
+  eventName: string;
 }
 
-export const Video = ({ to, header, description, link }: IVideoProp) => {
+export const Video = ({ to, header, description, link, eventName }: IVideoProp) => {
   if (description === undefined) {
     return (
       <>
@@ -23,7 +24,11 @@ export const Video = ({ to, header, description, link }: IVideoProp) => {
             <Row>
               <div className={s.video__col}>
                 <h3 className={s.video__heading}>
-                  <a href={link} target="_blank" rel="noopener noreferrer">
+                  <a 
+                    href={link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className={eventName}>
                     {header}
                   </a>
                 </h3>
@@ -58,7 +63,11 @@ export const Video = ({ to, header, description, link }: IVideoProp) => {
             <Row>
               <div className={s.video__col}>
                 <h3 className={s.video__heading}>
-                  <a href={link} target="_blank" rel="noopener noreferrer">
+                  <a 
+                    href={link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className={eventName}>
                     {header}
                   </a>
                 </h3>
