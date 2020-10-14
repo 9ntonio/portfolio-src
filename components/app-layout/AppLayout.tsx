@@ -25,11 +25,11 @@ export default ({ children }: IAppLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
-      <HeaderLink name="Resume" eventName="umami--click--Nav-Resume" to="/resume" />
+      <HeaderLink name="Resume" eventName="umami--click--nav-resume" to="/resume" />
 
-      <HeaderLink name="Contact" eventName="umami--click--Nav-Contact" to="mailto:antonio@spacebase.one" />
+      <HeaderLink name="Contact" eventName="umami--click--nav-contact" to="mailto:antonio@spacebase.one" />
 
-      <HeaderLink name="github" eventName="umami--click--Nav-Github" to="https://github.com/9ntonio" icon={<Github />} />
+      <HeaderLink name="github" eventName="umami--click--nav-github" to="https://github.com/9ntonio" icon={<Github />} />
     </Header>
 
     {children}
@@ -37,9 +37,9 @@ export default ({ children }: IAppLayoutProps) => (
     <Footer
       logo={<Logo />}
       social={[
-        { icon: <Github />, eventName: "umami--click--Footer-Github", to: 'https://github.com/9ntonio' },
-        { icon: <Twitter />, eventName: "umami--click--Footer-Twitter", to: 'https://twitter.com/9ntonio' },
-        { icon: <Linkedin />, eventName: "umami--click--Footer-LinkedIn", to: 'https://www.linkedin.com/in/antonio-almena/' },
+        { icon: <Github />, eventName: "umami--click--footer-github", to: 'https://github.com/9ntonio' },
+        { icon: <Twitter />, eventName: "umami--click--footer-twitter", to: 'https://twitter.com/9ntonio' },
+        { icon: <Linkedin />, eventName: "umami--click--footer-linkedIn", to: 'https://www.linkedin.com/in/antonio-almena/' },
       ]}
     />
 

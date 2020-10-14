@@ -64,7 +64,7 @@ export default () => (
                 href="https://www.commarts.com/project/22631/inside-your-scion"
                 target="_blank"
                 rel="noopener noreferrer"
-                className='umami--click--Resume-Heading-Scion'
+                className='umami--click--resume-heading-scion'
               >
                 Communication Arts Interactive Annual Award
               </a>
@@ -85,7 +85,7 @@ export default () => (
             href="https://www.sony.co.uk" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='umami--click--Resume-Sony'>
+            className='umami--click--resume-sony'>
             sony.co.uk
           </a>
           .<br />• Led engineering team and architected with Sony the iOS and Chromecast
@@ -94,7 +94,7 @@ export default () => (
             href="https://www.odopod.com/case-studies/ps-vue"
             target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--Resume-Vue'
+            className='umami--click--resume-vue'
           >
             PlayStation Vue
           </a>
@@ -103,7 +103,7 @@ export default () => (
             href="https://store.google.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='umami--click--Resume-Google'>
+            className='umami--click--resume-google'>
             Google online store.
           </a>
           <br />
@@ -165,7 +165,7 @@ export default () => (
             href="https://www.acura.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='umami--click--Resume-Acura'>
+            className='umami--click--resume-acura'>
             Acura.com
           </a>
           .<br />
@@ -175,7 +175,7 @@ export default () => (
             href="https://www.commarts.com/project/22631/inside-your-scion"
             target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--Resume-Scion'
+            className='umami--click--resume-scion'
           >
             Communication Arts Interactive Annual Award
           </a>

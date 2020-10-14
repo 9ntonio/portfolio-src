@@ -28,7 +28,7 @@ const IndexPage = (props) => (
       to="https://vimeo.com/374826636"
       header="Gusto Rebrand"
       link="https://gusto.com/brand"
-      description="I was recently hired by <a href='https://www.melonusa.com/' target='_blank'rel='noopener noreferrer' class='umami--click--Melon'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank'rel='noopener noreferrer' class='umami--click--Gusto'>Gusto</a> with their brand refresh. As the lead front end developer (of a team of 6), I worked closely with the Brand Studio and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto 🤘. As a means to document the rebranding process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank'rel='noopener noreferrer' class='umami--click--Figma'>a detailed outline of the process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank'rel='noopener noreferrer' class='umami--click--Gusto-Blog'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank'rel='noopener noreferrer' class='umami--click--Gusto-Brand-Guidelines'>design guidelines</a>."
+      description="I was recently hired by <a href='https://www.melonusa.com/' target='_blank'rel='noopener noreferrer' class='umami--click--melon'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank'rel='noopener noreferrer' class='umami--click--gusto'>Gusto</a> with their brand refresh. As the lead front end developer (of a team of 6), I worked closely with the Brand Studio and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto 🤘. As a means to document the rebranding process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank'rel='noopener noreferrer' class='umami--click--figma'>a detailed outline of the process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank'rel='noopener noreferrer' class='umami--click--gusto-blog'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank'rel='noopener noreferrer' class='umami--click--gusto-brand-guidelines'>design guidelines</a>."
     />
 
     <PortfolioBlock
@@ -44,7 +44,7 @@ const IndexPage = (props) => (
             />
           ),
           to: 'https://www.odopod.com/case-studies/ps-vue',
-          eventName: 'umami--click--Vue',
+          eventName: 'umami--click--vue',
         },
         {
           heading: 'Google Store',
@@ -57,7 +57,7 @@ const IndexPage = (props) => (
             />
           ),
           to: 'https://store.google.com',
-          eventName: 'umami--click--Google',
+          eventName: 'umami--click--google',
         },
         {
           heading: 'Sony Global',
@@ -70,7 +70,7 @@ const IndexPage = (props) => (
             />
           ),
           to: 'https://www.sony.co.uk',
-          eventName: 'umami--click--Sony',
+          eventName: 'umami--click--sony',
         },
         {
           heading: 'Audemars Piguet',
@@ -83,7 +83,7 @@ const IndexPage = (props) => (
             />
           ),
           to: 'https://www.audemarspiguet.com/',
-          eventName: 'umami--click--Audemars-Piguet',
+          eventName: 'umami--click--audemars-piguet',
         },
         {
           heading: 'Dolby Laboratories',
@@ -96,7 +96,7 @@ const IndexPage = (props) => (
             />
           ),
           to: 'https://www.dolby.com/',
-          eventName: 'umami--click--Dolby',
+          eventName: 'umami--click--dolby',
         },
         {
           heading: 'Inside Your Scion',
@@ -109,7 +109,7 @@ const IndexPage = (props) => (
             />
           ),
           to: 'https://www.commarts.com/project/22631/inside-your-scion',
-          eventName: 'umami--click--Scion',
+          eventName: 'umami--click--scion',
         },
       ]}
     />
@@ -124,7 +124,7 @@ const IndexPage = (props) => (
               href="https://ueno.co/" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="umami--click--Ueno">
+              className="umami--click--ueno">
               {' '}
               Ueno's
             </a>{' '}
@@ -133,7 +133,7 @@ const IndexPage = (props) => (
               href="https://github.com/gatsbyjs/gatsby-starter-default"
               target="_blank"
               rel="noopener noreferrer"
-              className="umami--click--Gatsby"
+              className="umami--click--gatsby"
             >
               Gatsby starter
             </a>
@@ -142,7 +142,7 @@ const IndexPage = (props) => (
               href="https://github.com/ueno-llc/create-ueno-app"
               target="_blank"
               rel="noopener noreferrer"
-              className="umami--click--Ueno-App"
+              className="umami--click--ueno-app"
             >
               create-ueno-app
             </a>
