@@ -26,11 +26,12 @@ export const Footer = ({ logo, social }: IFooterProps) => (
         <ul className={s.footer__list}>
           {social.map((item) => (
             <li key={item.to} className={s.footer__item}>
-              <a 
-                href={item.to} 
-                target="_blank" 
+              <a
+                href={item.to}
+                target="_blank"
                 rel="noopener noreferrer"
-                className={item.eventName} >
+                className={item.eventName}
+              >
                 {item.icon}
               </a>
             </li>

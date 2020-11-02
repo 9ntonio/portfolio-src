@@ -18,17 +18,17 @@ export default () => (
       <Highlight>Antonio</Highlight> lose his cool 😎 or drop the ball 🎾 on{' '}
       <Highlight>anything.&nbsp;</Highlight>
       <div className={s.intro_mobile__mobile_hide}>
-        He was a great <Highlight>communicator</Highlight>, had a
-        very <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the technology
+        He was a great <Highlight>communicator</Highlight>, had a very{' '}
+        <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the technology
         requirements as well as a very <Highlight>nuanced</Highlight>{' '}
         <Highlight>understanding</Highlight> of the design system being implemented (a{' '}
         <Highlight>500</Highlight>-<Highlight>page</Highlight>📄 doc!). I thoroughly enjoyed working
         with <Highlight>Antonio</Highlight> and would look forward to working with him again if the
-        opportunity arose. I <Highlight>highly</Highlight> <Highlight>recommend</Highlight> him to any
-        team that is looking for a solid client-facing <Highlight>Technology</Highlight>{' '}
-        <Highlight>Director</Highlight>👨🏽‍💻 who is adept at shepherding complex projects out the door🚪
-        while maintaining <Highlight>design</Highlight> <Highlight>integrity</Highlight> and a{' '}
-        <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the projects'{' '}
+        opportunity arose. I <Highlight>highly</Highlight> <Highlight>recommend</Highlight> him to
+        any team that is looking for a solid client-facing <Highlight>Technology</Highlight>{' '}
+        <Highlight>Director</Highlight>👨🏽‍💻 who is adept at shepherding complex projects out the
+        door🚪 while maintaining <Highlight>design</Highlight> <Highlight>integrity</Highlight> and
+        a <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the projects'{' '}
         <Highlight>technology</Highlight> <Highlight>stack</Highlight>
       </div>
       ."&nbsp;👍🏽
@@ -64,7 +64,7 @@ export default () => (
                 href="https://www.commarts.com/project/22631/inside-your-scion"
                 target="_blank"
                 rel="noopener noreferrer"
-                className='umami--click--resume-heading-scion'
+                className="umami--click--resume-heading-scion"
               >
                 Communication Arts Interactive Annual Award
               </a>
@@ -81,11 +81,12 @@ export default () => (
       description={
         <>
           • Led an external team of engineers in building the responsive frontend for{' '}
-          <a 
-            href="https://www.sony.co.uk" 
-            target="_blank" 
+          <a
+            href="https://www.sony.co.uk"
+            target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--resume-sony'>
+            className="umami--click--resume-sony"
+          >
             sony.co.uk
           </a>
           .<br />• Led engineering team and architected with Sony the iOS and Chromecast
@@ -94,16 +95,17 @@ export default () => (
             href="https://www.odopod.com/case-studies/ps-vue"
             target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--resume-vue'
+            className="umami--click--resume-vue"
           >
             PlayStation Vue
           </a>
           .<br />• Led engineering team and worked closely with Google to help create the{' '}
-          <a 
-            href="https://store.google.com" 
-            target="_blank" 
+          <a
+            href="https://store.google.com"
+            target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--resume-google'>
+            className="umami--click--resume-google"
+          >
             Google online store.
           </a>
           <br />
@@ -161,11 +163,12 @@ export default () => (
       description={
         <>
           • Worked with a team of engineers focused on building the marketing site for{' '}
-          <a 
-            href="https://www.acura.com/" 
-            target="_blank" 
+          <a
+            href="https://www.acura.com/"
+            target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--resume-acura'>
+            className="umami--click--resume-acura"
+          >
             Acura.com
           </a>
           .<br />
@@ -175,7 +178,7 @@ export default () => (
             href="https://www.commarts.com/project/22631/inside-your-scion"
             target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--resume-scion'
+            className="umami--click--resume-scion"
           >
             Communication Arts Interactive Annual Award
           </a>

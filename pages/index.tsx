@@ -37,7 +37,7 @@ const IndexPage = (props) => (
         {
           heading: 'Playstation Vue',
           description:
-            'Odopod implemented the iOS companion app (as well as the Chromecast app) for Sony\'s IPTV service. This app included live TV, DVR, and VOD features using integration with MLBAM\'s content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.',
+            "Odopod implemented the iOS companion app (as well as the Chromecast app) for Sony's IPTV service. This app included live TV, DVR, and VOD features using integration with MLBAM's content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.",
           image: (
             <Img
               fluid={props.data.imageVue.childImageSharp.fluid}
@@ -50,7 +50,7 @@ const IndexPage = (props) => (
         {
           heading: 'Google Store',
           description:
-            'Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google\'s online store. As the Technical Director on the project I worked closely with Google\'s engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts and Mocha scripts as a way to preemptively test our architecture prior to kickoff.',
+            "Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google's online store. As the Technical Director on the project I worked closely with Google's engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts and Mocha scripts as a way to preemptively test our architecture prior to kickoff.",
           image: (
             <Img
               fluid={props.data.imageGoogle.childImageSharp.fluid}
@@ -63,7 +63,7 @@ const IndexPage = (props) => (
         {
           heading: 'Sony Global',
           description:
-            'Odopod rebuilt Sony\'s entire global online presence. This large-scale, responsive redesign aligns dozens of fragmented regional sites under a single design system. Our technology powers this unification by providing a robust UI toolkit and HTML style guide for content creators. Part of my tasks as the Technical Director was to digest a 500 page guidelines manual that outlined the technology stack for this massive project that lasted over a year. Afterwards, it was my job to lead the external teams assigned to this project to insure that they kept to Sony\'s technical standards as well as onboard new members to the Sony team.',
+            "Odopod rebuilt Sony's entire global online presence. This large-scale, responsive redesign aligns dozens of fragmented regional sites under a single design system. Our technology powers this unification by providing a robust UI toolkit and HTML style guide for content creators. Part of my tasks as the Technical Director was to digest a 500 page guidelines manual that outlined the technology stack for this massive project that lasted over a year. Afterwards, it was my job to lead the external teams assigned to this project to insure that they kept to Sony's technical standards as well as onboard new members to the Sony team.",
           image: (
             <Img
               fluid={props.data.imageSony.childImageSharp.fluid}
@@ -76,7 +76,7 @@ const IndexPage = (props) => (
         {
           heading: 'Audemars Piguet',
           description:
-            'Odopods long standing relationship with Audemars Piguet allowed us to work closely with the luxury watchmaker. When I came on to this project as the Technical Director the dev team was re-constructing the front-end so as to make the site responsive. Along with the front-end, we added an extensive watch browser experience so users can search the entire collection. We also created new API\'s to allow users to schedule appointments with stores while also re-building the site from Symfony to Laravel.',
+            "Odopods long standing relationship with Audemars Piguet allowed us to work closely with the luxury watchmaker. When I came on to this project as the Technical Director the dev team was re-constructing the front-end so as to make the site responsive. Along with the front-end, we added an extensive watch browser experience so users can search the entire collection. We also created new API's to allow users to schedule appointments with stores while also re-building the site from Symfony to Laravel.",
           image: (
             <Img
               fluid={props.data.imageAudemars.childImageSharp.fluid}
@@ -89,7 +89,7 @@ const IndexPage = (props) => (
         {
           heading: 'Dolby Laboratories',
           description:
-            'Odopod designed and engineered Dolby Laboratories online presence. Our technology powers the site\'s responsive redesign by providing a robust UI toolkit and HTML style guide for content creators. As Technical Director on the project that was equal parts design (there were a TON of components), as well as front-end integration into the CMS.',
+            "Odopod designed and engineered Dolby Laboratories online presence. Our technology powers the site's responsive redesign by providing a robust UI toolkit and HTML style guide for content creators. As Technical Director on the project that was equal parts design (there were a TON of components), as well as front-end integration into the CMS.",
           image: (
             <Img
               fluid={props.data.imageDolby.childImageSharp.fluid}
@@ -102,7 +102,7 @@ const IndexPage = (props) => (
         {
           heading: 'Inside Your Scion',
           description:
-            'Although this project stylistically connects with Scion\'s urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. My job was to create programmic animations that could be used throughout the application, as well as construct the architecture that enabled the project to scale. For our efforts, the project was the winner of the Communication Arts Interactive Annual Award.',
+            "Although this project stylistically connects with Scion's urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. My job was to create programmic animations that could be used throughout the application, as well as construct the architecture that enabled the project to scale. For our efforts, the project was the winner of the Communication Arts Interactive Annual Award.",
           image: (
             <Img
               fluid={props.data.imageScion.childImageSharp.fluid}
@@ -121,11 +121,12 @@ const IndexPage = (props) => (
         <>
           <p>
             This site is based on{' '}
-            <a 
-              href="https://ueno.co/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="umami--click--ueno">
+            <a
+              href="https://ueno.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="umami--click--ueno"
+            >
               {' '}
               Ueno's
             </a>{' '}

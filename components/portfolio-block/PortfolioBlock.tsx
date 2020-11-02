@@ -24,27 +24,22 @@ export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
       <div className={s.portfolio} key={i}>
         <Row>
           <div className={s.portfolio__pic}>
-            <a 
-              href={item.to} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className={item.eventName}>
+            <a href={item.to} target="_blank" rel="noopener noreferrer" className={item.eventName}>
               {item.image}
             </a>
           </div>
           <div className={s.portfolio__col}>
             <h3 className={s.portfolio__heading}>
-              <a 
-                href={item.to} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className={item.eventName}>
+              <a
+                href={item.to}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={item.eventName}
+              >
                 {item.heading}
               </a>
             </h3>
-            <p className={s.portfolio__description}>
-              {item.description}
-            </p>
+            <p className={s.portfolio__description}>{item.description}</p>
           </div>
         </Row>
       </div>

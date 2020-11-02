@@ -26,36 +26,26 @@ export const Link = ({ name, to, icon, eventName }: ILinkProps) => {
 
   if (isExternal) {
     return (
-      <a 
-        className={`${s.link} ${eventName}`} 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        href={to}>
+      <a className={`${s.link} ${eventName}`} target="_blank" rel="noopener noreferrer" href={to}>
         {content()}
       </a>
     );
   } else if (isEmail) {
     return (
-      <a 
-        className={`${s.link} ${eventName}`}  
-        href={'mailto:' + to}>
+      <a className={`${s.link} ${eventName}`} href={'mailto:' + to}>
         {content()}
       </a>
     );
   } else if (isPhone) {
     return (
-      <a 
-        className={s.link} 
-        href={'sms:' + to}>
+      <a className={s.link} href={'sms:' + to}>
         {content()}
       </a>
     );
   }
 
   return (
-    <InternalLink 
-      className={`${s.link} ${eventName}`} 
-      to={to}>
+    <InternalLink className={`${s.link} ${eventName}`} to={to}>
       {content()}
     </InternalLink>
   );

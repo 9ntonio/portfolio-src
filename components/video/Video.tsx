@@ -24,11 +24,7 @@ export const Video = ({ to, header, description, link, eventName }: IVideoProp) 
             <Row>
               <div className={s.video__col}>
                 <h3 className={s.video__heading}>
-                  <a 
-                    href={link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className={eventName}>
+                  <a href={link} target="_blank" rel="noopener noreferrer" className={eventName}>
                     {header}
                   </a>
                 </h3>
@@ -63,11 +59,7 @@ export const Video = ({ to, header, description, link, eventName }: IVideoProp) 
             <Row>
               <div className={s.video__col}>
                 <h3 className={s.video__heading}>
-                  <a 
-                    href={link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className={eventName}>
+                  <a href={link} target="_blank" rel="noopener noreferrer" className={eventName}>
                     {header}
                   </a>
                 </h3>

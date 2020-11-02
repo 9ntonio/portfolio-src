@@ -27,9 +27,18 @@ export default ({ children }: IAppLayoutProps) => (
     <Header>
       <HeaderLink name="Resume" eventName="umami--click--nav-resume" to="/resume" />
 
-      <HeaderLink name="Contact" eventName="umami--click--nav-contact" to="mailto:antonio@spacebase.one" />
+      <HeaderLink
+        name="Contact"
+        eventName="umami--click--nav-contact"
+        to="mailto:antonio@spacebase.one"
+      />
 
-      <HeaderLink name="github" eventName="umami--click--nav-github" to="https://github.com/9ntonio" icon={<Github />} />
+      <HeaderLink
+        name="github"
+        eventName="umami--click--nav-github"
+        to="https://github.com/9ntonio"
+        icon={<Github />}
+      />
     </Header>
 
     {children}
@@ -37,9 +46,21 @@ export default ({ children }: IAppLayoutProps) => (
     <Footer
       logo={<Logo />}
       social={[
-        { icon: <Github />, eventName: "umami--click--footer-github", to: 'https://github.com/9ntonio' },
-        { icon: <Twitter />, eventName: "umami--click--footer-twitter", to: 'https://twitter.com/9ntonio' },
-        { icon: <Linkedin />, eventName: "umami--click--footer-linkedin", to: 'https://www.linkedin.com/in/antonio-almena/' },
+        {
+          icon: <Github />,
+          eventName: 'umami--click--footer-github',
+          to: 'https://github.com/9ntonio',
+        },
+        {
+          icon: <Twitter />,
+          eventName: 'umami--click--footer-twitter',
+          to: 'https://twitter.com/9ntonio',
+        },
+        {
+          icon: <Linkedin />,
+          eventName: 'umami--click--footer-linkedin',
+          to: 'https://www.linkedin.com/in/antonio-almena/',
+        },
       ]}
     />
 
