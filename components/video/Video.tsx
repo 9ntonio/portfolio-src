@@ -42,7 +42,7 @@ export const Video = ({ to, header, description, link, eventName }: IVideoProp) 
                     frameBorder="0"
                     controls={true}
                     playing={true}
-                    autoplay={true}
+                    autoPlay={true}
                   />
                 </div>
               </div>
@@ -77,7 +77,7 @@ export const Video = ({ to, header, description, link, eventName }: IVideoProp) 
                     frameBorder="0"
                     controls={true}
                     playing={true}
-                    autoplay={true}
+                    autoPlay={true}
                     muted={true}
                   />
                 </div>
