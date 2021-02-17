@@ -35,19 +35,6 @@ const IndexPage = (props) => (
     <PortfolioBlock
       data={[
         {
-          heading: 'Playstation Vue',
-          description:
-            "Odopod implemented the iOS companion app (as well as the Chromecast app) for Sony's IPTV service. This app included live TV, DVR, and VOD features using integration with MLBAM's content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.",
-          image: (
-            <Img
-              fluid={props.data.imageVue.childImageSharp.fluid}
-              alt={'Antonio Almena PlayStation Vue'}
-            />
-          ),
-          to: 'https://www.odopod.com/case-studies/ps-vue',
-          eventName: 'umami--click--vue',
-        },
-        {
           heading: 'Google Store',
           description:
             "Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google's online store. As the Technical Director on the project I worked closely with Google's engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts and Mocha scripts as a way to preemptively test our architecture prior to kickoff.",
@@ -59,6 +46,19 @@ const IndexPage = (props) => (
           ),
           to: 'https://store.google.com',
           eventName: 'umami--click--google',
+        },
+        {
+          heading: 'Playstation Vue',
+          description:
+            "Odopod implemented the iOS companion app (as well as the Chromecast app) for Sony's IPTV service. This app included live TV, DVR, and VOD features using integration with MLBAM's content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.",
+          image: (
+            <Img
+              fluid={props.data.imageVue.childImageSharp.fluid}
+              alt={'Antonio Almena PlayStation Vue'}
+            />
+          ),
+          to: 'https://www.odopod.com/case-studies/ps-vue',
+          eventName: 'umami--click--vue',
         },
         {
           heading: 'Sony Global',
