@@ -10,9 +10,10 @@ interface IIntroProps {
   children: React.ReactNode;
   subtext: string;
   to: string;
+  eventName: string;
 }
 
-export const Intro = ({ children, subtext, to }: IIntroProps) => {
+export const Intro = ({ children, subtext, to, eventName }: IIntroProps) => {
   if (subtext !== undefined && to !== undefined) {
     return (
       <Container>
@@ -21,7 +22,11 @@ export const Intro = ({ children, subtext, to }: IIntroProps) => {
             <div className={s.intro__col}>
               <p className={s.intro__text}>{children}</p>
               <p className={s.intro__subtext}>
-                <a target="_blank" rel="noopener noreferrer" href={to}>
+                <a 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className={eventName} 
+                  href={to}>
                   <HighlightSmall>{subtext}</HighlightSmall>
                 </a>
               </p>
