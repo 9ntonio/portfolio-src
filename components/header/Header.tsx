@@ -15,7 +15,7 @@ export const Header = ({ children }: IHeaderProps) => (
   <header className={s.header}>
     <div className={s.header__container}>
       <div className={s.header__content}>
-        <Link to="/" className="umami--click--logo">
+        <Link to="/" className="umami--click--nav-logo">
           <Logo className={s.header__logoSvg} />
           <LogoSmall className={s.header__logoSvgSmall} />
         </Link>

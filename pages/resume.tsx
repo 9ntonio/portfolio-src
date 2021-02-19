@@ -11,7 +11,7 @@ export default () => (
   <>
     <Helmet title="Resume" />
 
-    <Intro subtext="Jared Stanley" to="https://www.linkedin.com/in/jaredstanley/">
+    <Intro subtext="Jared Stanley" to="https://www.linkedin.com/in/jaredstanley/" eventName="umami--click--resume-jared">
       "During <Highlight>extremely</Highlight> <Highlight>high-stress</Highlight> 💦 situations
       requiring <Highlight>complex</Highlight> <Highlight>design</Highlight> and{' '}
       <Highlight>code</Highlight> <Highlight>deliverables</Highlight> 📩, I never once saw{' '}
