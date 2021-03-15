@@ -11,14 +11,19 @@ export default () => (
   <>
     <Helmet title="Resume" />
 
-    <Intro subtext="Jared Stanley" to="https://www.linkedin.com/in/jaredstanley/" eventName="umami--click--resume-jared">
+    <Intro
+      subtext="Jared Stanley"
+      to="https://www.linkedin.com/in/jaredstanley/"
+      eventName="umami--click--resume-jared"
+    >
       "During <Highlight>extremely</Highlight> <Highlight>high-stress</Highlight> 💦 situations
       requiring <Highlight>complex</Highlight> <Highlight>design</Highlight> and{' '}
       <Highlight>code</Highlight> <Highlight>deliverables</Highlight> 📩, I never once saw{' '}
       <Highlight>Antonio</Highlight> lose his cool 😎 or drop the ball 🎾 on{' '}
       <Highlight>anything</Highlight>.
       <div className={s.intro_mobile__mobile_hide}>
-        {' '}He was a great <Highlight>communicator</Highlight>, had a very{' '}
+        {' '}
+        He was a great <Highlight>communicator</Highlight>, had a very{' '}
         <Highlight>thorough</Highlight> <Highlight>understanding</Highlight> of the technology
         requirements as well as a very <Highlight>nuanced</Highlight>{' '}
         <Highlight>understanding</Highlight> of the design system being implemented (a{' '}
