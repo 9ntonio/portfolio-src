@@ -37,7 +37,7 @@ const IndexPage = (props: any) => (
         {
           heading: 'Google Store',
           description:
-            'Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google\'s online store. As the Technical Director on the project I worked closely with Google\'s engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts and Mocha as a way to preemptively test our architecture prior to kickoff.',
+            'Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google\'s online store. As the Technical Director on the project I worked closely with Google\'s engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts that were tied to a suite of Mocha tests as a way to preemptively test our architecture prior to kickoff.',
           image: (
             <Img
               fluid={props.data.imageGoogle.childImageSharp.fluid}
@@ -89,7 +89,7 @@ const IndexPage = (props: any) => (
         {
           heading: 'Dolby Laboratories',
           description:
-            'Odopod designed and engineered Dolby Laboratories online presence. Our technology powers the site\'s responsive redesign by providing a robust UI toolkit and HTML style guide for content creators. As Technical Director on the project that was equal parts design (there were a TON of components), as well as front-end integration into the CMS.',
+            'Odopod designed and engineered Dolby Laboratories online presence. Our technology powers the site\'s responsive redesign by providing a robust UI toolkit and HTML style guide for content creators. I was the Technical Director on the project where I worked closely with the design team (there were a TON of components), as well as being hands on integrating the front-end into the CMS.',
           image: (
             <Img
               fluid={props.data.imageDolby.childImageSharp.fluid}
@@ -102,7 +102,7 @@ const IndexPage = (props: any) => (
         {
           heading: 'Inside Your Scion',
           description:
-            'Although this project stylistically connects with Scion\'s urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. My job was to create programmic animations that could be used throughout the application. I also created the architecture whose main goal was to quickly scale. For our efforts, the project was the winner of the Communication Arts Interactive Annual Award.',
+            'Although this project stylistically connects with Scion\'s urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. My job was to create programmic animations that could be used throughout the application. I also created the architecture whose main goal was to quickly scale via various deliverables. For our efforts, the project was the winner of the Communication Arts Interactive Annual Award. 🎉',
           image: (
             <Img
               fluid={props.data.imageScion.childImageSharp.fluid}
