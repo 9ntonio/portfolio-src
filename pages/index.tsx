@@ -11,7 +11,7 @@ import { BlockText } from 'components/block-text/BlockText';
 import { PortfolioBlock } from 'components/portfolio-block/PortfolioBlock';
 import { Spacer } from 'components/spacer/Spacer';
 
-const IndexPage = (props) => (
+const IndexPage = (props: any) => (
   <>
     <Helmet title="IO" />
 
@@ -37,7 +37,7 @@ const IndexPage = (props) => (
         {
           heading: 'Google Store',
           description:
-            'Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google\'s online store. As the Technical Director on the project I worked closely with Google\'s engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts and Mocha scripts as a way to preemptively test our architecture prior to kickoff.',
+            'Odopod worked with Google in helping them to create the front-end components, design system and style-guide for Google\'s online store. As the Technical Director on the project I worked closely with Google\'s engineering team in order to adhere to their strict technical requirements and testing guidelines. I worked with the dev team on creating proof of concepts and Mocha as a way to preemptively test our architecture prior to kickoff.',
           image: (
             <Img
               fluid={props.data.imageGoogle.childImageSharp.fluid}
@@ -50,7 +50,7 @@ const IndexPage = (props) => (
         {
           heading: 'Playstation Vue',
           description:
-            'Odopod implemented the iOS companion app (as well as the Chromecast app) for Sony\'s IPTV service. This app included live TV, DVR, and VOD features using integration with MLBAM\'s content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict security guidelines.',
+            'Odopod implemented the iOS companion app (as well as the Chromecast app) for Sony\'s IPTV service. This app included live TV, DVR, and VOD features using integration with MLBAM\'s content delivery service and complex access control features implemented client-side. I was the Technical Director on the project that lasted 2 years. In that time I worked closely with PlayStation on outlining and building not only the applications (iOS and Chromacast), but also the security architecture needed to adhere to their strict guidelines.',
           image: (
             <Img
               fluid={props.data.imageVue.childImageSharp.fluid}
@@ -102,7 +102,7 @@ const IndexPage = (props) => (
         {
           heading: 'Inside Your Scion',
           description:
-            'Although this project stylistically connects with Scion\'s urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. My job was to create programmic animations that could be used throughout the application, as well as construct the architecture that enabled the project to scale. For our efforts, the project was the winner of the Communication Arts Interactive Annual Award.',
+            'Although this project stylistically connects with Scion\'s urban customer base, its purpose is significant: to reduce the number of customer service calls regarding vehicle features. My job was to create programmic animations that could be used throughout the application. I also created the architecture whose main goal was to quickly scale. For our efforts, the project was the winner of the Communication Arts Interactive Annual Award.',
           image: (
             <Img
               fluid={props.data.imageScion.childImageSharp.fluid}
@@ -116,52 +116,31 @@ const IndexPage = (props) => (
     />
 
     <BlockText
-      heading="So what's under the hood?"
+      heading="What technologies have I been working with?"
       description={
-        <>
+        <div>
           <p>
-            This site is based on{' '}
-            <a
-              href="https://ueno.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="umami--click--ueno"
-            >
-              {' '}
-              Ueno's
-            </a>{' '}
-            starter (which in turn was an extension of the{' '}
-            <a
-              href="https://github.com/gatsbyjs/gatsby-starter-default"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="umami--click--gatsby"
-            >
-              Gatsby starter
+            I've had the oppurtunity to work with the following:<br/>
+            <HighlightSmall>Ruby on &nbsp;Rails</HighlightSmall>,{' '}
+            <HighlightSmall>React</HighlightSmall>,{' '}
+            <HighlightSmall>NextJS</HighlightSmall>,{' '}
+            <HighlightSmall>Gatsby</HighlightSmall>,{' '}
+            <HighlightSmall>TypeScript</HighlightSmall>,{' '}
+            <HighlightSmall>Prisma</HighlightSmall>,{' '}
+            <HighlightSmall>PostgrSQL</HighlightSmall>,{' '}
+            <HighlightSmall>GraphQL</HighlightSmall>{' '},
+            <HighlightSmall>HAML</HighlightSmall>,{' '}
+            <HighlightSmall>SCSS</HighlightSmall>,{' '}
+            <HighlightSmall>Bootstrap</HighlightSmall>,{' '}
+            <HighlightSmall>Figma</HighlightSmall> and a lot of {' '}
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank" rel="noopener noreferrer">
+              Web API's
             </a>
-            ) which you can check out here:{' '}
-            <a
-              href="https://github.com/ueno-llc/create-ueno-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="umami--click--ueno-app"
-            >
-              create-ueno-app
-            </a>
-            . If you want a starter kit that has no portfolio structure what so ever, I would highly
-            recommend using the Ueno starter kit.
+            .
           </p>
 
-          <p>
-            This site uses: <HighlightSmall>TypeScript</HighlightSmall>,{' '}
-            <HighlightSmall>SCSS</HighlightSmall>, <HighlightSmall>CSS Modules</HighlightSmall>,{' '}
-            <HighlightSmall>React Hooks</HighlightSmall>,{' '}
-            <HighlightSmall>root resolver</HighlightSmall>, <HighlightSmall>GraphQL</HighlightSmall>{' '}
-            and <HighlightSmall>code splitting</HighlightSmall>.
-          </p>
-
-          <p>&lt;&gt; with 💝in San Francisco. ✌🏼</p>
-        </>
+          <p>&lt;<code>made</code>&gt; with 💖 in San Francisco 🌁</p>
+        </div>
       }
     />
 
