@@ -1,5 +1,5 @@
 const title = 'Antonio Almena';
-const description = 'The portfolio site of Antonio Almena';
+const description = 'Collected works! 🧑🏽‍💻';
 
 import favicon from 'assets/images/favicon.png';
 import share from 'assets/images/share.png';
