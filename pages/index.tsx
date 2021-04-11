@@ -13,7 +13,7 @@ import { Spacer } from 'components/spacer/Spacer';
 
 const IndexPage = (props: any) => (
   <>
-    <Helmet title="Collected works" />
+    <Helmet title="Collected Works" />
 
     <Intro>
       <Highlight>Hello</Highlight> 👋🏽 my name is <Highlight>Antonio</Highlight> and I live in{' '}
