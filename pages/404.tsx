@@ -6,7 +6,7 @@ import { Video } from 'components/video/Video';
 
 export default () => (
   <>
-    <Helmet title="Oh Boy!" />
+    <Helmet title="Oh Boy!!!" />
 
     <Intro>
       <h1>Oh Boy! That didn't go as planned! ⛔</h1>
@@ -15,7 +15,7 @@ export default () => (
     <Video
       to="https://vimeo.com/54784090?playsinline=0"
       link="https://www.cnn.com/travel/article/paris-best-time-to-visit-spring/index.html"
-      header="While you're here, enjoy Paris in in spring."
+      header="While you're here, enjoy a bit of Paris 🇫🇷 in in spring 🌸."
     />
   </>
 );

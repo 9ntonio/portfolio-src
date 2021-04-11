@@ -3,11 +3,11 @@ const description = 'Collected works! 🧑🏽‍💻';
 
 import favicon from 'assets/images/favicon.png';
 import share from 'assets/images/share.png';
-const urlShare = `https://www.almena.io${share}`;
+const urlShare = `https://antonio.almena.io${share}`;
 
 export const helmet = {
   title,
-  titleTemplate: '%s - Antonio Almena',
+  titleTemplate: 'Antonio Almena - %s',
   htmlAttributes: { lang: 'en' },
   meta: [
     { name: 'description', content: description },
