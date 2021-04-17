@@ -1,10 +1,8 @@
 import * as React from 'react';
 import ReactPlayer from 'react-player';
 import ReactHtmlParser from 'react-html-parser';
-
 import { Container } from 'components/container/Container';
 import { Row } from 'components/row/Row';
-
 import s from './Video.scss';
 
 interface IVideoProp {

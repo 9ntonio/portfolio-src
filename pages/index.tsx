@@ -20,7 +20,7 @@ const IndexPage = (props: any) => (
       <Highlight>San Francisco</Highlight> 🌉. I'm an engineer who 💖 working on projects that
       combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and{' '}
       <Highlight>Web APIs</Highlight>. I'm currently looking for opportunities that can benefit from
-      my <Highlight>Experience</Highlight> and <Highlight>Savoire Faire.</Highlight>✨ Here are some
+      my <Highlight>Experience</Highlight> and <Highlight>Savoire&nbsp;Faire.</Highlight>✨ Here are some
       projects that I've worked on recently. 🧑🏽‍💻
     </Intro>
 
@@ -29,7 +29,7 @@ const IndexPage = (props: any) => (
       header="Gusto Rebrand"
       link="https://gusto.com/brand"
       eventName="umami--click--gusto"
-      description="I was recently hired by <a href='https://www.melonusa.com/' target='_blank' rel='noopener noreferrer' class='umami--click--melon'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank' rel='noopener noreferrer' class='umami--click--gusto'>Gusto</a> with their brand refresh. As the lead front end developer (of a team of 6), I worked closely with the Brand Studio and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto 🤘. As a means to document the rebranding process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank' rel='noopener noreferrer' class='umami--click--figma'>a detailed outline of the process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-blog'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-brand-guidelines'>design guidelines</a>."
+      description="I was recently hired by <a href='https://www.melonusa.com/' target='_blank' rel='noopener noreferrer' class='umami--click--melon'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank' rel='noopener noreferrer' class='umami--click--gusto'>Gusto</a> with their brand refresh. As the lead developer (of a team of 6), I worked closely with the Brand Studio, Marketing and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto 🤘. As a means to document the rebranding process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank' rel='noopener noreferrer' class='umami--click--figma'>a detailed outline of the process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-blog'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-brand-guidelines'>design guidelines</a>."
     />
 
     <PortfolioBlock
@@ -46,6 +46,7 @@ const IndexPage = (props: any) => (
           ),
           to: 'https://store.google.com',
           eventName: 'umami--click--google',
+          bullets: null,
         },
         {
           heading: 'Playstation Vue',
@@ -59,6 +60,7 @@ const IndexPage = (props: any) => (
           ),
           to: 'https://www.odopod.com/case-studies/ps-vue',
           eventName: 'umami--click--vue',
+          bullets: null,
         },
         {
           heading: 'Sony Global',
@@ -72,6 +74,7 @@ const IndexPage = (props: any) => (
           ),
           to: 'https://www.sony.co.uk',
           eventName: 'umami--click--sony',
+          bullets: null,
         },
         {
           heading: 'Audemars Piguet',
@@ -85,6 +88,7 @@ const IndexPage = (props: any) => (
           ),
           to: 'https://www.audemarspiguet.com/',
           eventName: 'umami--click--audemars-piguet',
+          bullets: null,
         },
         {
           heading: 'Dolby Laboratories',
@@ -98,6 +102,7 @@ const IndexPage = (props: any) => (
           ),
           to: 'https://www.dolby.com/',
           eventName: 'umami--click--dolby',
+          bullets: null,
         },
         {
           heading: 'Inside Your Scion',
@@ -111,6 +116,7 @@ const IndexPage = (props: any) => (
           ),
           to: 'https://www.commarts.com/project/22631/inside-your-scion',
           eventName: 'umami--click--scion',
+          bullets: null,
         },
       ]}
     />

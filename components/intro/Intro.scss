@@ -4,6 +4,10 @@
   padding-bottom: 30px;
   border-bottom: 3px dashed $color-accent-opacity-black;
 
+  ul {
+    margin-top: 10px;
+  }
+
   @media (min-width: $min-768) {
     padding-bottom: 40px;
   }

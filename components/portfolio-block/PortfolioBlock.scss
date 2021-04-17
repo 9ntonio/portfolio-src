@@ -53,6 +53,12 @@
     }
   }
 
+  &__list {
+    @include rf(14, 16);
+    font-weight: 400;
+    line-height: (26 / 16);
+  }
+
   a {
     text-decoration: none;
     color: #000;

@@ -7,7 +7,7 @@ const urlShare = `https://antonio.almena.io${share}`;
 
 export const helmet = {
   title,
-  titleTemplate: 'Antonio Almena - %s',
+  titleTemplate: 'Antonio Almena | %s',
   htmlAttributes: { lang: 'en' },
   meta: [
     { name: 'description', content: description },
