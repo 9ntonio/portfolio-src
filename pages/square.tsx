@@ -41,23 +41,29 @@ const SquarePage = (props: any) => (
         </li>
       </ul>
 
-      <a
-        href="https://www.linkedin.com/in/antonio-almena/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={s.square__svg_icon +' '+ s.square__margin_right + ' umami--click--square-linkedin'}
-      >
-        <Linkedin />
-      </a>
+      <ul className={s.square__list}>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/antonio-almena/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={s.square__svg_icon +' '+ s.square__margin_right + ' umami--click--square-linkedin'}
+          >
+            <Linkedin />
+          </a>
+        </li>
 
-      <a
-        href="https://github.com/9ntonio"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={s.square__svg_icon + ' umami--click--square-github'}
-      >
-        <Github />
-      </a>
+        <li>
+          <a
+            href="https://github.com/9ntonio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={s.square__svg_icon + ' umami--click--square-github'}
+          >
+            <Github />
+          </a>
+        </li>
+      </ul>
     </Intro>
 
     <PortfolioBlock

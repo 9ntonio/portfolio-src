@@ -1,6 +1,10 @@
 @import '~styles/config';
 
 .square {
+  &__list {
+    display: flex;
+  }
+  
   &__svg_icon {
     path {
       transition: 200ms fill ease-in-out;
