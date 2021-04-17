@@ -9,8 +9,10 @@ import { HighlightSmall } from 'components/intro/HighlightSmall';
 import { BlockText } from 'components/block-text/BlockText';
 import { PortfolioBlock } from 'components/portfolio-block/PortfolioBlock';
 import { Spacer } from 'components/spacer/Spacer';
+import Linkedin from 'assets/svg/linkedin_xl.svg';
+import s from '../components/footer/Square.scss';
 
-const IndexPage = (props: any) => (
+const SquarePage = (props: any) => (
   <>
     <Helmet title="Square" />
 
@@ -18,7 +20,7 @@ const IndexPage = (props: any) => (
       Hello 👋🏽 Square. My name is <Highlight>Antonio</Highlight> and I would 💖 to join your{' '}
       <Highlight>Design Technologist</Highlight> team! The projects listed below will help
       demonstrate:
-      <ul>
+      <ul className={s.square__margin_bottom}>
         <li>
           &bull; My <Highlight>creative/design</Highlight> <Highlight>technology</Highlight>{' '}
           experience.
@@ -36,6 +38,14 @@ const IndexPage = (props: any) => (
           whole <Highlight>team</Highlight> can <Highlight>love</Highlight> 🙌
         </li>
       </ul>
+      <a
+        href="https://www.linkedin.com/in/antonio-almena/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`${s.square__linkedin} umami--click--square-linkedin`}
+      >
+        <Linkedin />
+      </a>
     </Intro>
 
     <PortfolioBlock
@@ -134,7 +144,7 @@ const IndexPage = (props: any) => (
   </>
 );
 
-export default IndexPage;
+export default SquarePage;
 
 export const fluidImage = graphql`
   fragment fluidImage on File {

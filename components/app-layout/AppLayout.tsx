@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import Logo from 'assets/svg/logo.svg';
 import Twitter from 'assets/svg/twitter.svg';
 import Github from 'assets/svg/github.svg';
-import Linkedin from 'assets/svg/linkedin.svg';
+import Linkedin from 'assets/svg/linkedin_2.svg';
 
 import { helmet } from 'utils/helmet';
 import { Header } from 'components/header/Header';

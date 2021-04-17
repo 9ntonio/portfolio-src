@@ -1,0 +1,18 @@
+@import '~styles/config';
+
+.square {
+  &__linkedin {
+    path {
+      transition: 200ms fill ease-in-out;
+      fill: #000;
+    }
+
+    &:hover path {
+      fill: $color-accent;
+    }
+  }
+
+  &__margin_bottom {
+    margin-bottom: 15px;
+  }
+}
