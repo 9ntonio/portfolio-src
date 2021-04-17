@@ -42,23 +42,23 @@ const SquarePage = (props: any) => (
       </ul>
 
       <ul className={s.square__list}>
-        <li>
+        <li className={s.square__svg_icon +' '+ s.square__margin_right}>
           <a
             href="https://www.linkedin.com/in/antonio-almena/"
             target="_blank"
             rel="noopener noreferrer"
-            className={s.square__svg_icon +' '+ s.square__margin_right + ' umami--click--square-linkedin'}
+            className='umami--click--square-linkedin'
           >
             <Linkedin />
           </a>
         </li>
 
-        <li>
+        <li className={s.square__svg_icon}>
           <a
             href="https://github.com/9ntonio"
             target="_blank"
             rel="noopener noreferrer"
-            className={s.square__svg_icon + ' umami--click--square-github'}
+            className='umami--click--square-github'
           >
             <Github />
           </a>
