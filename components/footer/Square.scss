@@ -1,7 +1,7 @@
 @import '~styles/config';
 
 .square {
-  &__linkedin {
+  &__svg_icon {
     path {
       transition: 200ms fill ease-in-out;
       fill: #000;
@@ -14,5 +14,9 @@
 
   &__margin_bottom {
     margin-bottom: 15px;
+  }
+
+  &__margin_right {
+    margin-right: 15px;
   }
 }

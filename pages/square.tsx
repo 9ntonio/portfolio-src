@@ -10,6 +10,7 @@ import { BlockText } from 'components/block-text/BlockText';
 import { PortfolioBlock } from 'components/portfolio-block/PortfolioBlock';
 import { Spacer } from 'components/spacer/Spacer';
 import Linkedin from 'assets/svg/linkedin_xl.svg';
+import Github from 'assets/svg/github_xl.svg';
 import s from '../components/footer/Square.scss';
 
 const SquarePage = (props: any) => (
@@ -39,13 +40,23 @@ const SquarePage = (props: any) => (
           whole <Highlight>team</Highlight> can <Highlight>love</Highlight> 🙌
         </li>
       </ul>
+
       <a
         href="https://www.linkedin.com/in/antonio-almena/"
         target="_blank"
         rel="noopener noreferrer"
-        className={`${s.square__linkedin} umami--click--square-linkedin`}
+        className={`${s.square__svg_icon} ${s.square__margin_right} umami--click--square-linkedin`}
       >
         <Linkedin />
+      </a>
+
+      <a
+        href="https://github.com/9ntonio"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`${s.square__svg_icon} umami--click--square-github`}
+      >
+        <Github />
       </a>
     </Intro>
 

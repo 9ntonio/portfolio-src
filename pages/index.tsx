@@ -17,9 +17,9 @@ const IndexPage = (props: any) => (
 
     <Intro>
       <Highlight>Hello</Highlight> 👋🏽 my name is <Highlight>Antonio</Highlight> and I live in{' '}
-      <Highlight>San Francisco</Highlight> 🌉. I'm an engineer who 💖 working on projects that
+      <Highlight>San</Highlight> <Highlight>Francisco</Highlight> 🌉. I'm an <Highlight>engineer</Highlight> who 💖 working on projects that
       combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and{' '}
-      <Highlight>Web APIs</Highlight>. I'm currently looking for opportunities that can benefit from
+      <Highlight>Web</Highlight> <Highlight>APIs</Highlight>. I'm currently looking for opportunities that can benefit from
       my <Highlight>Experience</Highlight> and <Highlight>Savoire</Highlight>{' '}
       <Highlight>Faire.</Highlight>✨ Here are some projects that I've worked on recently. 🧑🏽‍💻
     </Intro>
