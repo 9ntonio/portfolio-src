@@ -22,11 +22,11 @@ const SquarePage = (props: any) => (
       <Highlight>Design</Highlight> <Highlight>Technologist</Highlight> team! The projects listed
       below will help demonstrate:
       <ul className={s.square__margin_bottom}>
-        <li>
+        <li key='0'>
           &bull; My <Highlight>creative</Highlight>/<Highlight>design</Highlight>{' '}
           <Highlight>technology</Highlight> experience.
         </li>
-        <li>
+        <li key='1'>
           &bull; My <Highlight>design</Highlight> <Highlight>skills</Highlight> and why I 💘{' '}
           <Highlight>partnering</Highlight> with <Highlight>creative</Highlight>{' '}
           <Highlight>teams</Highlight>.
@@ -35,30 +35,30 @@ const SquarePage = (props: any) => (
           &bull; My <Highlight>marketing</Highlight> experience on{' '}
           <Highlight>"go-to-market"</Highlight> projects.
         </li>
-        <li>
+        <li key='2'>
           &bull; How my <Highlight>opinions</Highlight> foster <Highlight>solutions</Highlight> the
           whole <Highlight>team</Highlight> can <Highlight>love</Highlight> 🙌
         </li>
       </ul>
 
       <ul className={s.square__list}>
-        <li className={s.square__svg_icon +' '+ s.square__margin_right}>
+        <li key='0' className={s.square__svg_icon +' '+ s.square__margin_right}>
           <a
             href="https://www.linkedin.com/in/antonio-almena/"
             target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--square-linkedin'
+            className="umami--click--square-linkedin"
           >
             <Linkedin />
           </a>
         </li>
 
-        <li className={s.square__svg_icon}>
+        <li key='1' className={s.square__svg_icon}>
           <a
             href="https://github.com/9ntonio"
             target="_blank"
             rel="noopener noreferrer"
-            className='umami--click--square-github'
+            className="umami--click--square-github"
           >
             <Github />
           </a>

@@ -24,8 +24,8 @@ export const Footer = ({ logo, social }: IFooterProps) => (
         </a>
 
         <ul className={s.footer__list}>
-          {social.map( item => (
-            <li key={item.to} className={s.footer__item}>
+          {social.map( (item, i) => (
+            <li key={i} className={s.footer__item}>
               <a
                 href={item.to}
                 target="_blank"
