@@ -18,16 +18,17 @@ const SquarePage = (props: any) => (
 
     <Intro>
       Hello 👋🏽 Square. My name is <Highlight>Antonio</Highlight> and I would 💖 to join your{' '}
-      <Highlight>Design Technologist</Highlight> team! The projects listed below will help
-      demonstrate:
+      <Highlight>Design</Highlight> <Highlight>Technologist</Highlight> team! The projects listed
+      below will help demonstrate:
       <ul className={s.square__margin_bottom}>
         <li>
-          &bull; My <Highlight>creative/design</Highlight> <Highlight>technology</Highlight>{' '}
-          experience.
+          &bull; My <Highlight>creative</Highlight>/<Highlight>design</Highlight>{' '}
+          <Highlight>technology</Highlight> experience.
         </li>
         <li>
-          &bull; My <Highlight>design skills</Highlight> and why I 💘{' '}
-          <Highlight>partnering</Highlight> with <Highlight>creative teams</Highlight>.
+          &bull; My <Highlight>design</Highlight> <Highlight>skills</Highlight> and why I 💘{' '}
+          <Highlight>partnering</Highlight> with <Highlight>creative</Highlight>{' '}
+          <Highlight>teams</Highlight>.
         </li>
         <li>
           &bull; My <Highlight>marketing</Highlight> experience on{' '}

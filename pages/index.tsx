@@ -20,8 +20,8 @@ const IndexPage = (props: any) => (
       <Highlight>San Francisco</Highlight> 🌉. I'm an engineer who 💖 working on projects that
       combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and{' '}
       <Highlight>Web APIs</Highlight>. I'm currently looking for opportunities that can benefit from
-      my <Highlight>Experience</Highlight> and <Highlight>Savoire&nbsp;Faire.</Highlight>✨ Here are
-      some projects that I've worked on recently. 🧑🏽‍💻
+      my <Highlight>Experience</Highlight> and <Highlight>Savoire</Highlight>{' '}
+      <Highlight>Faire.</Highlight>✨ Here are some projects that I've worked on recently. 🧑🏽‍💻
     </Intro>
 
     <Video
