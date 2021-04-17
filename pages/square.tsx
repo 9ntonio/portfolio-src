@@ -45,7 +45,7 @@ const SquarePage = (props: any) => (
         href="https://www.linkedin.com/in/antonio-almena/"
         target="_blank"
         rel="noopener noreferrer"
-        className={`${s.square__svg_icon} ${s.square__margin_right} umami--click--square-linkedin`}
+        className={s.square__svg_icon +" "+ s.square__margin_right + " umami--click--square-linkedin"}
       >
         <Linkedin />
       </a>
@@ -54,7 +54,7 @@ const SquarePage = (props: any) => (
         href="https://github.com/9ntonio"
         target="_blank"
         rel="noopener noreferrer"
-        className={`${s.square__svg_icon} umami--click--square-github`}
+        className={s.square__svg_icon + " umami--click--square-github"}
       >
         <Github />
       </a>
@@ -139,6 +139,7 @@ const SquarePage = (props: any) => (
               href="https://developer.mozilla.org/en-US/docs/Web/API"
               target="_blank"
               rel="noopener noreferrer"
+              className="umami--click--square-web-api"
             >
               Web API's
             </a>

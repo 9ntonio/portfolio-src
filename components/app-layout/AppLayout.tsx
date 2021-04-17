@@ -59,7 +59,7 @@ export default ({ children }: IAppLayoutProps) => (
         {
           icon: <Linkedin />,
           eventName: 'umami--click--footer-linkedin',
-          to: 'https://www.linkedin.com/in/antonio-almena/',
+          to: 'https://www.linkedin.com/in/antonio-almena',
         },
       ]}
     />
