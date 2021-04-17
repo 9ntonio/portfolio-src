@@ -19,7 +19,7 @@ interface IPortfolioBlockProps {
 
 export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
   <Container>
-    { data.map((item, i) => (
+    {data.map((item, i) => (
       <div className={s.portfolio} key={i}>
         <Row>
           <div className={s.portfolio__pic}>
@@ -39,14 +39,17 @@ export const PortfolioBlock = ({ data }: IPortfolioBlockProps) => (
               </a>
             </h3>
             <p className={s.portfolio__description}>{ReactHtmlParser(item.description)}</p>
-            
-            <ul>
-              { item.bullets && item.bullets.map( (bullet: any, j: number) => {
-                  return <li key={j} className={s.portfolio__list}>&bull; {ReactHtmlParser(bullet.copy)}</li>
-                }) 
-              }
-            </ul>
 
+            <ul>
+              {item.bullets &&
+                item.bullets.map((bullet: any, j: number) => {
+                  return (
+                    <li key={j} className={s.portfolio__list}>
+                      &bull; {ReactHtmlParser(bullet.copy)}
+                    </li>
+                  );
+                })}
+            </ul>
           </div>
         </Row>
       </div>

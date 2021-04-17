@@ -15,14 +15,27 @@ const IndexPage = (props: any) => (
     <Helmet title="Square" />
 
     <Intro>
-      Hello 👋🏽 Square. My name is <Highlight>Antonio</Highlight> and I would 💖 to join your <Highlight>Design Technologist</Highlight> team!
-      The projects listed below will help demonstrate:
+      Hello 👋🏽 Square. My name is <Highlight>Antonio</Highlight> and I would 💖 to join your{' '}
+      <Highlight>Design Technologist</Highlight> team! The projects listed below will help
+      demonstrate:
       <ul>
-        <li>&bull; My <Highlight>creative/design</Highlight> <Highlight>technology</Highlight> experience.</li>
-        <li>&bull; My <Highlight>design skills</Highlight> and why I 💘 <Highlight>partnering</Highlight> with <Highlight>creative teams</Highlight>.</li> 
-        <li>&bull; My <Highlight>marketing</Highlight> experience on <Highlight>"go-to-market"</Highlight> projects.</li> 
-        <li>&bull; How my <Highlight>opinions</Highlight> foster <Highlight>solutions</Highlight> the whole <Highlight>team</Highlight> can <Highlight>love</Highlight> 🙌</li>
-      </ul> 
+        <li>
+          &bull; My <Highlight>creative/design</Highlight> <Highlight>technology</Highlight>{' '}
+          experience.
+        </li>
+        <li>
+          &bull; My <Highlight>design skills</Highlight> and why I 💘{' '}
+          <Highlight>partnering</Highlight> with <Highlight>creative teams</Highlight>.
+        </li>
+        <li>
+          &bull; My <Highlight>marketing</Highlight> experience on{' '}
+          <Highlight>"go-to-market"</Highlight> projects.
+        </li>
+        <li>
+          &bull; How my <Highlight>opinions</Highlight> foster <Highlight>solutions</Highlight> the
+          whole <Highlight>team</Highlight> can <Highlight>love</Highlight> 🙌
+        </li>
+      </ul>
     </Intro>
 
     <PortfolioBlock
@@ -32,23 +45,22 @@ const IndexPage = (props: any) => (
           description:
             'I was recently hired by <a href=\'https://www.melonusa.com/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-melon\'>Melon Technology</a> to assist <a href=\'https://gusto.com\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-gusto\'>Gusto</a> with their brand refresh. As the lead developer (of a team of 6), I worked closely with the Brand Studio, Marketing and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto. As a means to document the process, Figma recently posted <a href=\'https://www.figma.com/blog/gusto/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-figma\'>a detailed outline of our process on their blog</a>. For further information on Gusto\'s rebranding, feel free to <a href=\'https://gusto.com/company-news/gusto-brand-refresh\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-gusto-blog\'>read the blog post</a> as well as the <a href=\'https://gusto.com/brand\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-gusto-brand-guidelines\'>design guidelines</a>.',
           image: (
-            <Img
-              fluid={props.data.imageGusto.childImageSharp.fluid}
-              alt={'Antonio Almena Gusto'}
-            />
+            <Img fluid={props.data.imageGusto.childImageSharp.fluid} alt={'Antonio Almena Gusto'} />
           ),
           to: 'https://gusto.com',
           eventName: 'umami--click--square-gusto',
           bullets: [
-            {copy: 'Technologies | Ruby on Rails, React, TypeScript, SCSS, HAML, Marketo & Lottie'},
-            {copy: 'Design Tools | Figma, After Effects & Illustrator'}, 
-            {copy: 'Teams | Marketing, Design, UX, Growth & Product'},
-          ]
+            {
+              copy: 'Technologies | Ruby on Rails, React, TypeScript, SCSS, HAML, Marketo & Lottie',
+            },
+            { copy: 'Design Tools | Figma, After Effects & Illustrator' },
+            { copy: 'Teams | Marketing, Design, UX, Growth & Product' },
+          ],
         },
         {
           heading: 'Gusto Wallet',
           description:
-            "Gusto Wallet is a financial product created for employees of Gusto customers (their employers). The visual direction was the driver for differentiating the product as an employee tool. The design team and I worked together (via Figma) on iterating through idea\\'s on how to best implement their After Effects animations. I created a proof of concept to validate my ideas on using <a href=\'https://airbnb.design/lottie/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-lottie\'>Lottie</a> animations (via <a href=\'https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-bodymovin\'>Bodymovin</a>) with <a href=\'https://github.com/scottcorgan/tiny-emitter\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-tiny-emitter\'>Tiny-Emitter.</a> Once I gained the confidence of the design team with my POC, the team and I began making some internet magic ✨.",
+            'Gusto Wallet is a financial product created for employees of Gusto customers (their employers). The visual direction was the driver for differentiating the product as an employee tool. The design team and I worked together (via Figma) on iterating through idea\'s on how to best implement their After Effects animations. I created a proof of concept to validate my ideas on using <a href=\'https://airbnb.design/lottie/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-lottie\'>Lottie</a> animations (via <a href=\'https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-bodymovin\'>Bodymovin</a>) with <a href=\'https://github.com/scottcorgan/tiny-emitter\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-tiny-emitter\'>Tiny-Emitter.</a> Once I gained the confidence of the design team with my POC, the team and I began making some internet magic ✨.',
           image: (
             <Img
               fluid={props.data.imageWallet.childImageSharp.fluid}
@@ -58,10 +70,13 @@ const IndexPage = (props: any) => (
           to: 'https://gusto.com/wallet',
           eventName: 'umami--click--square-gusto-wallet',
           bullets: [
-            {copy: 'Technologies | Ruby on Rails, React, TypeScript, SCSS, HAML, Lottie & Tiny-Emitter'},
-            {copy: 'Design | Figma, After Effects & Illustrator'}, 
-            {copy: 'Teams | Marketing, Design, UX, Growth & Product'},
-          ]
+            {
+              copy:
+                'Technologies | Ruby on Rails, React, TypeScript, SCSS, HAML, Lottie & Tiny-Emitter',
+            },
+            { copy: 'Design | Figma, After Effects & Illustrator' },
+            { copy: 'Teams | Marketing, Design, UX, Growth & Product' },
+          ],
         },
         {
           heading: 'Google Store',
@@ -76,11 +91,11 @@ const IndexPage = (props: any) => (
           to: 'https://store.google.com',
           eventName: 'umami--click--square-google',
           bullets: [
-            {copy: 'Design | InVision, Photoshop & Illustrator'}, 
-            {copy: 'Technologies | Angular, Javascript, Webpack, Mocha & SCSS'},
-            {copy: 'Teams | Marketing, Design, UX, Engineering & Product'},
-          ]
-        }, 
+            { copy: 'Design | InVision, Photoshop & Illustrator' },
+            { copy: 'Technologies | Angular, Javascript, Webpack, Mocha & SCSS' },
+            { copy: 'Teams | Marketing, Design, UX, Engineering & Product' },
+          ],
+        },
       ]}
     />
 
@@ -89,26 +104,28 @@ const IndexPage = (props: any) => (
       description={
         <div>
           <p>
-            I've had the oppurtunity to work with the following:<br/>
+            I've had the oppurtunity to work with the following:
+            <br />
             <HighlightSmall>Ruby on &nbsp;Rails</HighlightSmall>,{' '}
-            <HighlightSmall>React</HighlightSmall>,{' '}
-            <HighlightSmall>NextJS</HighlightSmall>,{' '}
-            <HighlightSmall>Gatsby</HighlightSmall>,{' '}
-            <HighlightSmall>TypeScript</HighlightSmall>,{' '}
-            <HighlightSmall>Prisma</HighlightSmall>,{' '}
-            <HighlightSmall>PostgrSQL</HighlightSmall>,{' '}
-            <HighlightSmall>GraphQL</HighlightSmall>{' '},
-            <HighlightSmall>HAML</HighlightSmall>,{' '}
-            <HighlightSmall>SCSS</HighlightSmall>,{' '}
-            <HighlightSmall>Bootstrap</HighlightSmall>,{' '}
-            <HighlightSmall>Figma</HighlightSmall> and a lot of {' '}
-            <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank" rel="noopener noreferrer">
+            <HighlightSmall>React</HighlightSmall>, <HighlightSmall>NextJS</HighlightSmall>,{' '}
+            <HighlightSmall>Gatsby</HighlightSmall>, <HighlightSmall>TypeScript</HighlightSmall>,{' '}
+            <HighlightSmall>Prisma</HighlightSmall>, <HighlightSmall>PostgrSQL</HighlightSmall>,{' '}
+            <HighlightSmall>GraphQL</HighlightSmall> ,<HighlightSmall>HAML</HighlightSmall>,{' '}
+            <HighlightSmall>SCSS</HighlightSmall>, <HighlightSmall>Bootstrap</HighlightSmall>,{' '}
+            <HighlightSmall>Figma</HighlightSmall> and a lot of{' '}
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/API"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Web API's
             </a>
             .
           </p>
 
-          <p>&lt;<code>made</code>&gt; with 💖 in San Francisco 🌁</p>
+          <p>
+            &lt;<code>made</code>&gt; with 💖 in San Francisco 🌁
+          </p>
         </div>
       }
     />

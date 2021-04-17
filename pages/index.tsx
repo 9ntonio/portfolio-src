@@ -20,8 +20,8 @@ const IndexPage = (props: any) => (
       <Highlight>San Francisco</Highlight> 🌉. I'm an engineer who 💖 working on projects that
       combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and{' '}
       <Highlight>Web APIs</Highlight>. I'm currently looking for opportunities that can benefit from
-      my <Highlight>Experience</Highlight> and <Highlight>Savoire&nbsp;Faire.</Highlight>✨ Here are some
-      projects that I've worked on recently. 🧑🏽‍💻
+      my <Highlight>Experience</Highlight> and <Highlight>Savoire&nbsp;Faire.</Highlight>✨ Here are
+      some projects that I've worked on recently. 🧑🏽‍💻
     </Intro>
 
     <Video
@@ -126,26 +126,28 @@ const IndexPage = (props: any) => (
       description={
         <div>
           <p>
-            I've had the oppurtunity to work with the following:<br/>
+            I've had the oppurtunity to work with the following:
+            <br />
             <HighlightSmall>Ruby on &nbsp;Rails</HighlightSmall>,{' '}
-            <HighlightSmall>React</HighlightSmall>,{' '}
-            <HighlightSmall>NextJS</HighlightSmall>,{' '}
-            <HighlightSmall>Gatsby</HighlightSmall>,{' '}
-            <HighlightSmall>TypeScript</HighlightSmall>,{' '}
-            <HighlightSmall>Prisma</HighlightSmall>,{' '}
-            <HighlightSmall>PostgrSQL</HighlightSmall>,{' '}
-            <HighlightSmall>GraphQL</HighlightSmall>{' '},
-            <HighlightSmall>HAML</HighlightSmall>,{' '}
-            <HighlightSmall>SCSS</HighlightSmall>,{' '}
-            <HighlightSmall>Bootstrap</HighlightSmall>,{' '}
-            <HighlightSmall>Figma</HighlightSmall> and a lot of {' '}
-            <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank" rel="noopener noreferrer">
+            <HighlightSmall>React</HighlightSmall>, <HighlightSmall>NextJS</HighlightSmall>,{' '}
+            <HighlightSmall>Gatsby</HighlightSmall>, <HighlightSmall>TypeScript</HighlightSmall>,{' '}
+            <HighlightSmall>Prisma</HighlightSmall>, <HighlightSmall>PostgrSQL</HighlightSmall>,{' '}
+            <HighlightSmall>GraphQL</HighlightSmall> ,<HighlightSmall>HAML</HighlightSmall>,{' '}
+            <HighlightSmall>SCSS</HighlightSmall>, <HighlightSmall>Bootstrap</HighlightSmall>,{' '}
+            <HighlightSmall>Figma</HighlightSmall> and a lot of{' '}
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/API"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Web API's
             </a>
             .
           </p>
 
-          <p>&lt;<code>made</code>&gt; with 💖 in San Francisco 🌁</p>
+          <p>
+            &lt;<code>made</code>&gt; with 💖 in San Francisco 🌁
+          </p>
         </div>
       }
     />
