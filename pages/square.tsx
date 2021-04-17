@@ -30,7 +30,7 @@ const IndexPage = (props: any) => (
         {
           heading: 'Gusto Rebrand',
           description:
-            "I was recently hired by <a href='https://www.melonusa.com/' target='_blank' rel='noopener noreferrer' class='umami--click--square-melon'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank' rel='noopener noreferrer' class='umami--click--square-gusto'>Gusto</a> with their brand refresh. As the lead developer (of a team of 6), I worked closely with the Brand Studio, Marketing and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto. As a means to document the process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank' rel='noopener noreferrer' class='umami--click--square-figma'>a detailed outline of our process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank' rel='noopener noreferrer' class='umami--click--square-gusto-blog'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank' rel='noopener noreferrer' class='umami--click--square-gusto-brand-guidelines'>design guidelines</a>.",
+            'I was recently hired by <a href=\'https://www.melonusa.com/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-melon\'>Melon Technology</a> to assist <a href=\'https://gusto.com\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-gusto\'>Gusto</a> with their brand refresh. As the lead developer (of a team of 6), I worked closely with the Brand Studio, Marketing and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto. As a means to document the process, Figma recently posted <a href=\'https://www.figma.com/blog/gusto/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-figma\'>a detailed outline of our process on their blog</a>. For further information on Gusto\'s rebranding, feel free to <a href=\'https://gusto.com/company-news/gusto-brand-refresh\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-gusto-blog\'>read the blog post</a> as well as the <a href=\'https://gusto.com/brand\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-gusto-brand-guidelines\'>design guidelines</a>.',
           image: (
             <Img
               fluid={props.data.imageGusto.childImageSharp.fluid}
@@ -42,13 +42,13 @@ const IndexPage = (props: any) => (
           bullets: [
             {copy: 'Technologies | Ruby on Rails, React, TypeScript, SCSS, HAML, Marketo & Lottie'},
             {copy: 'Design Tools | Figma, After Effects & Illustrator'}, 
-            {copy: 'Teams | Marketing, Design, UX, Growth & Product'}
+            {copy: 'Teams | Marketing, Design, UX, Growth & Product'},
           ]
         },
         {
           heading: 'Gusto Wallet',
           description:
-            "Gusto Wallet is a financial product created for employees of Gusto customers (their employers). The visual direction was the driver for differentiating the product as an employee tool. The design team and I worked together (via Figma) on iterating through idea\'s on how to best implement their After Effects animations. I created a proof of concept to validate my ideas on using <a href='https://airbnb.design/lottie/' target='_blank' rel='noopener noreferrer' class='umami--click--square-lottie'>Lottie</a> animations (via <a href='https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html' target='_blank' rel='noopener noreferrer' class='umami--click--square-bodymovin'>Bodymovin</a>) with <a href='https://github.com/scottcorgan/tiny-emitter' target='_blank' rel='noopener noreferrer' class='umami--click--square-tiny-emitter'>Tiny-Emitter.</a> Once I gained the confidence of the design team with my POC, the team and I began making some internet magic ✨.",
+            "Gusto Wallet is a financial product created for employees of Gusto customers (their employers). The visual direction was the driver for differentiating the product as an employee tool. The design team and I worked together (via Figma) on iterating through idea\\'s on how to best implement their After Effects animations. I created a proof of concept to validate my ideas on using <a href=\'https://airbnb.design/lottie/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-lottie\'>Lottie</a> animations (via <a href=\'https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-bodymovin\'>Bodymovin</a>) with <a href=\'https://github.com/scottcorgan/tiny-emitter\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-tiny-emitter\'>Tiny-Emitter.</a> Once I gained the confidence of the design team with my POC, the team and I began making some internet magic ✨.",
           image: (
             <Img
               fluid={props.data.imageWallet.childImageSharp.fluid}
@@ -60,13 +60,13 @@ const IndexPage = (props: any) => (
           bullets: [
             {copy: 'Technologies | Ruby on Rails, React, TypeScript, SCSS, HAML, Lottie & Tiny-Emitter'},
             {copy: 'Design | Figma, After Effects & Illustrator'}, 
-            {copy: 'Teams | Marketing, Design, UX, Growth & Product'}
+            {copy: 'Teams | Marketing, Design, UX, Growth & Product'},
           ]
         },
         {
           heading: 'Google Store',
           description:
-            "While working at <a href='https://www.odopod.com/' target='_blank' rel='noopener noreferrer' class='umami--click--square-odopod'>Odopod</a> I was honored ( and excited ) to work on this project with Google's UX, Marketing, Product and Engineering teams. One of the biggest challenges was adhering to Google’s strict technical requirements. One of the biggest challenges was not having access to their servers. This meant that all deliverables needed to be as clean and bug free as possible. After some initial R&D, we decided to create a proof of concept where we we added <a href='https://mochajs.org/' target='_blank' rel='noopener noreferrer' class='umami--click--square-mocha'>Mocha</a> tests into our CI process. This allowed us to preemptively test our architecture and address issues prior to kickoff. The initial research enabled us to create a test suite that easily scaled.",
+            'While working at <a href=\'https://www.odopod.com/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-odopod\'>Odopod</a> I was honored ( and excited ) to work on this project with Google\'s UX, Marketing, Product and Engineering teams. One of the biggest challenges was adhering to Google’s strict technical requirements. One of the biggest challenges was not having access to their servers. This meant that all deliverables needed to be as clean and bug free as possible. After some initial R&D, we decided to create a proof of concept where we we added <a href=\'https://mochajs.org/\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-mocha\'>Mocha</a> tests into our CI process. This allowed us to preemptively test our architecture and address issues prior to kickoff. The initial research enabled us to create a test suite that easily scaled.',
           image: (
             <Img
               fluid={props.data.imageGoogle.childImageSharp.fluid}
@@ -78,7 +78,7 @@ const IndexPage = (props: any) => (
           bullets: [
             {copy: 'Design | InVision, Photoshop & Illustrator'}, 
             {copy: 'Technologies | Angular, Javascript, Webpack, Mocha & SCSS'},
-            {copy: 'Teams | Marketing, Design, UX, Engineering & Product'}
+            {copy: 'Teams | Marketing, Design, UX, Engineering & Product'},
           ]
         }, 
       ]}
