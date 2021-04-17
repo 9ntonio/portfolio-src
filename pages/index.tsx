@@ -139,6 +139,7 @@ const IndexPage = (props: any) => (
               href="https://developer.mozilla.org/en-US/docs/Web/API"
               target="_blank"
               rel="noopener noreferrer"
+              className="umami--click--web-api"
             >
               Web API's
             </a>
