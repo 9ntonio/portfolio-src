@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 import { Container } from 'components/container/Container';
 import { Row } from 'components/row/Row';
 import { HighlightSmall } from 'components/intro/HighlightSmall';
@@ -20,12 +19,12 @@ export const Intro = ({ children, subtext, to, eventName }: IIntroProps) => {
         <div className={s.intro}>
           <Row>
             <div className={s.intro__col}>
-              <p className={s.intro__text}>{children}</p>
-              <p className={s.intro__subtext}>
+              <span className={s.intro__text}>{children}</span>
+              <span className={s.intro__subtext}>
                 <a target="_blank" rel="noopener noreferrer" className={eventName} href={to}>
                   <HighlightSmall>{subtext}</HighlightSmall>
                 </a>
-              </p>
+              </span>
             </div>
           </Row>
         </div>
@@ -37,7 +36,7 @@ export const Intro = ({ children, subtext, to, eventName }: IIntroProps) => {
         <div className={s.intro}>
           <Row>
             <div className={s.intro__col}>
-              <p className={s.intro__text}>{children}</p>
+              <span className={s.intro__text}>{children}</span>
             </div>
           </Row>
         </div>
