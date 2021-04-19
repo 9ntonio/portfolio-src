@@ -79,7 +79,7 @@ const SquarePage = (props: any) => (
           to: 'https://gusto.com',
           eventName: 'umami--click--square-gusto',
           bullets: [
-            { copy: 'Technologies | Ruby on Rails, React, JavaScript, TypeScript, SCSS, HAML, Marketo & Lottie' },
+            { copy: 'Technologies | Ruby on Rails, React, JavaScript, TypeScript, SCSS, HAML, Marketo, Optimizely, Wistia & Lottie' },
             { copy: 'Design Tools | Figma, After Effects & Illustrator' },
             { copy: 'Teams | Marketing, Design, UX, Growth & Product' },
             { copy: '<a href=\'https://cdn.sanity.io/images/599r6htc/production/c5c03f8b43a8c79000f9369c3b286e7c8f60ac65-1600x801.png\' target=\'_blank\' rel=\'noopener noreferrer\' class=\'umami--click--square-gusto-figma-library\'>Link | Figma component library example</a>' },
