@@ -9,7 +9,7 @@ type TValue = string | boolean | object;
  */
 
 export const useLocalStorage = (key: string, initialValue?: TValue) => {
-  if (typeof window === undefined) {
+  if (typeof window === "undefined") {
     return [initialValue, undefined];
   }
 
