@@ -1,7 +1,5 @@
 import * as React from 'react';
-
 import { Link as InternalLink } from 'components/link/Link';
-
 import s from './Link.scss';
 
 interface ILinkProps {
@@ -20,7 +18,7 @@ export const Link = ({ name, to, icon, eventName }: ILinkProps) => {
   const content = () => (
     <>
       {icon && React.cloneElement(icon as any, { className: s.link__icon })}
-      {name}
+      {name}&nbsp;
     </>
   );
 

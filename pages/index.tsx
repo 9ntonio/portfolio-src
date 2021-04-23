@@ -21,7 +21,7 @@ const IndexPage = (props: any) => (
       combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and{' '}
       <Highlight>Web</Highlight> <Highlight>APIs</Highlight>. I'm currently looking for opportunities that can benefit from
       my <Highlight>Experience</Highlight> and <Highlight>Savoire</Highlight>{' '}
-      <Highlight>Faire.</Highlight>✨ Here are some projects that I've worked on recently. 🧑🏽‍💻
+      <Highlight>Faire</Highlight> ✨. Here are some projects that I've worked on recently. 🧑🏽‍💻
     </Intro>
 
     <Video

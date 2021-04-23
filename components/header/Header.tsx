@@ -1,10 +1,7 @@
 import * as React from 'react';
-
 import { Link } from 'components/link/Link';
-
 import Logo from 'assets/svg/main-logo.svg';
 import LogoSmall from 'assets/svg/logo.svg';
-
 import s from './Header.scss';
 
 interface IHeaderProps {

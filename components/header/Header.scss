@@ -19,7 +19,7 @@
       position: absolute;
       z-index: 1;
       top: 34px;
-      height: 16px;
+      height: 20px;
       width: auto;
 
       path {
@@ -31,27 +31,26 @@
         fill: $color-accent;
       }
 
-      @media (max-width: $max-480) {
-        visibility: hidden;
+      @media (max-width: $max-600) {
+        display: none;
       }
 
-      @media (min-width: $min-768) {
-        height: 20px;
-      }
-
-      @media (min-width: $min-1280) {
+      @media (min-width: $min-720) {
         top: 37px;
+      }
+
+      @media (min-width: $min-1024) {
+        top: 39px;
       }
     }
 
     &SvgSmall {
-      display: block;
+      display: none;
       position: absolute;
       z-index: 2;
-      top: 34px;
+      top: 36px;
       height: 16px;
       width: auto;
-      visibility: hidden;
 
       path {
         transition: 200ms fill ease-in-out;
@@ -62,8 +61,8 @@
         fill: $color-accent;
       }
 
-      @media (max-width: $max-480) {
-        visibility: visible;
+      @media (max-width: $max-600) {
+        display: block;
       }
     }
   }

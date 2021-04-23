@@ -3,19 +3,25 @@
 .link {
   display: flex;
   margin-left: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  @include rf(20, 28);
+  color: #000;
+  transition: 200ms color ease-in-out;
+
   @media (max-width: $max-480) {
     margin-left: 10px;
   }
 
-  text-decoration: none;
-  font-weight: 700;
-  // font-size: 14px;
-  @include rf(17, 24);
-  color: #000;
-  transition: 200ms color ease-in-out;
-
   &:first-of-type {
     margin-left: 0;
+  }
+
+  &:last-of-type {
+    display: inherit;
+    @media (max-width: $max-480) {
+      display: none;
+    }
   }
 
   &:hover {
@@ -24,6 +30,7 @@
 
   &__icon {
     position: relative;
+    top: 5px;
     margin-right: 4px;
     margin-top: 3px;
 
@@ -36,12 +43,20 @@
       fill: $color-accent;
     }
 
-    @media (min-width: $min-768) and (max-width: $max-1280) {
-      top: 5px;
+    // @media (min-width: $min-768) and (max-width: $max-1280) {
+    //   top: 7px;
+    // }
+
+    @media (min-width: $min-768) {
+      top: 7px;
     }
 
-    @media (min-width: $min-1280) {
-      top: 9px;
+    @media (min-width: $min-1024) {
+      top: 10px;
+    }
+
+    @media (min-width: $min-1440) {
+      top: 12px;
     }
   }
 }

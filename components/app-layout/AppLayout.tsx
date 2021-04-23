@@ -25,7 +25,7 @@ export default ({ children }: IAppLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
-      <HeaderLink name="Resume" eventName="umami--click--nav-resume" to="/resume" />
+      <HeaderLink name="Résumé" eventName="umami--click--nav-resume" to="/resume" />
 
       <HeaderLink
         name="Contact"

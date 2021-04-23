@@ -9,7 +9,7 @@ import s from '../components/intro/Intro-Mobile.scss';
 
 export default () => (
   <>
-    <Helmet title="Resume" />
+    <Helmet title="Résumé" />
 
     <Intro
       subtext="Jared Stanley"
