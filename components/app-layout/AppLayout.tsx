@@ -34,7 +34,7 @@ export default ({ children }: IAppLayoutProps) => (
       />
 
       <HeaderLink
-        name="github"
+        name="GitHub"
         eventName="umami--click--nav-github"
         to="https://github.com/9ntonio"
         icon={<Github />}
