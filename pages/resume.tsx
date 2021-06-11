@@ -40,8 +40,8 @@ export default () => (
     </Intro>
 
     <BlockTextResume
-      heading="Engineer/Creative Technologist"
-      subheading="Self Employed | Oct 2018 - Present"
+      heading="Design Technologist / Creative Engineer"
+      subheading="SpaceBase.One | Oct 2018 - Present"
       description={
         <>
           <p>
