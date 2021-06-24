@@ -20,7 +20,6 @@ export const useLocalStorage = (key: string, initialValue?: TValue) => {
       if (typeof local !== 'string') {
         localStorage.setItem(key, JSON.stringify(initialValue));
         return initialValue;
-        
       } else {
         return JSON.parse(local);
       }
