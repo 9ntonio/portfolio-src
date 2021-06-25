@@ -16,14 +16,13 @@ const IndexPage = (props: any) => (
     <Helmet title="Collected Works" />
 
     <Intro>
-      <Highlight>Hello</Highlight> 👋🏽 my name is <Highlight>Antonio</Highlight> and I live in{' '}
+      <Highlight>Hola</Highlight> 👋🏽 my name is <Highlight>Antonio</Highlight> and I live in{' '}
       <Highlight>San</Highlight> <Highlight>Francisco</Highlight> 🌉. I'm a{' '}
-      <Highlight>Design</Highlight> <Highlight>Technologist</Highlight> who 💖 working on projects
-      that combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight> and{' '}
+      <Highlight>Design</Highlight> <Highlight>Technologist</Highlight> who ❤️‍🔥 working on projects
+      that combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight>, <Highlight>Animation</Highlight> and{' '}
       <Highlight>Web</Highlight> <Highlight>APIs</Highlight>. I'm currently looking for
       opportunities that can benefit from my <Highlight>Experience</Highlight> and{' '}
-      <Highlight>Savoire</Highlight> <Highlight>Faire</Highlight> ✨. Here are some projects that
-      I've worked on recently. 🧑🏽‍💻
+      <Highlight>Savoire</Highlight> <Highlight>Faire</Highlight> 🌟. Below are a few recent projects. 🧑🏽‍💻
     </Intro>
 
     <Video
@@ -31,11 +30,25 @@ const IndexPage = (props: any) => (
       header="Gusto Rebrand"
       link="https://gusto.com/brand"
       eventName="umami--click--gusto"
-      description="I was recently hired by <a href='https://www.melonusa.com/' target='_blank' rel='noopener noreferrer' class='umami--click--melon'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank' rel='noopener noreferrer' class='umami--click--gusto'>Gusto</a> with their brand refresh. As the lead developer (of a team of 6), I worked closely with the Brand Studio, Marketing and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;smoothest brand launch&quot; anyone has seen at Gusto 🤘. As a means to document the rebranding process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank' rel='noopener noreferrer' class='umami--click--figma'>a detailed outline of the process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-blog'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-brand-guidelines'>design guidelines</a>."
+      description="I was hired by <a href='https://www.melonusa.com/' target='_blank' rel='noopener noreferrer' class='umami--click--melon'>Melon Technology</a> to assist <a href='https://gusto.com' target='_blank' rel='noopener noreferrer' class='umami--click--gusto'>Gusto</a> with their brand refresh. As the lead developer (of a team of 6), I worked closely with the Brand Studio, Marketing and Growth teams to get over 100 pages updated into the new brand guidelines. The team and I were able to deliver on time with what was noted to be the &quot;<u>smoothest brand launch</u>&quot; anyone has seen at Gusto 🎉. As a means to document the rebranding process, Figma recently posted <a href='https://www.figma.com/blog/gusto/' target='_blank' rel='noopener noreferrer' class='umami--click--figma'>a detailed outline of the process on their blog</a>. For further information on Gusto's rebranding, feel free to <a href='https://gusto.com/company-news/gusto-brand-refresh' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-blog'>read the blog post</a> as well as the <a href='https://gusto.com/brand' target='_blank' rel='noopener noreferrer' class='umami--click--gusto-brand-guidelines'>design guidelines</a>."
     />
 
     <PortfolioBlock
       data={[
+        {
+          heading: 'Sunbasket',
+          description:
+            "Fun fact about me… I’m also an amazing photographer 📸. My wife is also (coincidently) the Lead Food Stylist for Sunbasket. So when Covid forced most of us to stay indoors, we decided to set up a studio at home. The goal was to create a safe and productive working environment and begin creating imagery for recipes and marketing campaigns for Sunbasket. This relationship evolved and created oppurtunities to work with the Sunbasket product team on front-end projects.",
+          image: (
+            <Img
+              fluid={props.data.imageSunbasket.childImageSharp.fluid}
+              alt={'Antonio Almena Sunbasket'}
+            />
+          ),
+          to: 'https://www.sunbasket.com/',
+          eventName: 'umami--click--sunbasket',
+          bullets: null,
+        },
         {
           heading: 'Google Store',
           description:
@@ -90,20 +103,6 @@ const IndexPage = (props: any) => (
           ),
           to: 'https://www.audemarspiguet.com/',
           eventName: 'umami--click--audemars-piguet',
-          bullets: null,
-        },
-        {
-          heading: 'Dolby Laboratories',
-          description:
-            "Odopod designed and engineered Dolby Laboratories online presence. Our technology powers the site's responsive redesign by providing a robust UI toolkit and HTML style guide for content creators. I was the Technical Director on the project where I worked closely with the design team (there were a TON of components), as well as being hands on integrating the front-end into the CMS.",
-          image: (
-            <Img
-              fluid={props.data.imageDolby.childImageSharp.fluid}
-              alt={'Antonio Almena Dolby Labs'}
-            />
-          ),
-          to: 'https://www.dolby.com/',
-          eventName: 'umami--click--dolby',
           bullets: null,
         },
         {
@@ -185,7 +184,7 @@ export const pageQuery = graphql`
     imageAudemars: file(relativePath: { eq: "audemars.jpg" }) {
       ...fluidImage
     }
-    imageDolby: file(relativePath: { eq: "dolby.jpg" }) {
+    imageSunbasket: file(relativePath: { eq: "sunbasket.jpg" }) {
       ...fluidImage
     }
     imageScion: file(relativePath: { eq: "scion.jpg" }) {
