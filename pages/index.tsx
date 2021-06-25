@@ -18,11 +18,12 @@ const IndexPage = (props: any) => (
     <Intro>
       <Highlight>Hola</Highlight> 👋🏽 my name is <Highlight>Antonio</Highlight> and I live in{' '}
       <Highlight>San</Highlight> <Highlight>Francisco</Highlight> 🌉. I'm a{' '}
-      <Highlight>Design</Highlight> <Highlight>Technologist</Highlight> who ❤️‍🔥 working on projects
-      that combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight>, <Highlight>Animation</Highlight> and{' '}
-      <Highlight>Web</Highlight> <Highlight>APIs</Highlight>. I'm currently looking for
-      opportunities that can benefit from my <Highlight>Experience</Highlight> and{' '}
-      <Highlight>Savoire</Highlight> <Highlight>Faire</Highlight> 🌟. Below are a few recent projects. 🧑🏽‍💻
+      <Highlight>Design</Highlight> <Highlight>Technologist</Highlight> who ❤️‍🔥 working on
+      projects that combine <Highlight>Design</Highlight>, <Highlight>UX</Highlight>,{' '}
+      <Highlight>Animation</Highlight> and <Highlight>Web</Highlight> <Highlight>APIs</Highlight>.
+      I'm currently looking for opportunities that can benefit from my{' '}
+      <Highlight>Experience</Highlight> and <Highlight>Savoire</Highlight>{' '}
+      <Highlight>Faire</Highlight> 🌟. Below are a few recent projects. 🧑🏽‍💻
     </Intro>
 
     <Video
@@ -38,7 +39,7 @@ const IndexPage = (props: any) => (
         {
           heading: 'Sunbasket',
           description:
-            "Fun fact about me… I’m also an amazing photographer 📸. My wife is also (coincidently) the Lead Food Stylist for Sunbasket. So when Covid forced most of us to stay indoors, we decided to set up a studio at home. The goal was to create a safe and productive working environment and begin creating imagery for recipes and marketing campaigns for Sunbasket. This relationship evolved and created oppurtunities to work with the Sunbasket product team on front-end projects.",
+            'Fun fact about me… I’m also an amazing photographer 📸. My wife is also (coincidently) the Lead Food Stylist for Sunbasket. So when Covid forced most of us to stay indoors, we decided to set up a studio at home. The goal was to create a safe and productive working environment and begin creating imagery for recipes and marketing campaigns for Sunbasket. This relationship evolved and created oppurtunities to work with the Sunbasket product team on front-end projects.',
           image: (
             <Img
               fluid={props.data.imageSunbasket.childImageSharp.fluid}
