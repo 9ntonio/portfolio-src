@@ -39,7 +39,7 @@ const IndexPage = (props: any) => (
         {
           heading: 'Sunbasket',
           description:
-            'Fun fact about me… I’m also an amazing photographer 📸. My wife is also (coincidently) the Lead Food Stylist for Sunbasket. So when Covid forced most of us to stay indoors, we decided to set up a studio at home. The goal was to create a safe and productive working environment and begin creating imagery for recipes and marketing campaigns for Sunbasket. This relationship evolved and created oppurtunities to work with the Sunbasket product team on front-end projects.',
+            'Fun fact about me… I’m also an amazing photographer 📸. My wife is also (coincidently) the Lead Food Stylist for Sunbasket. So when Covid forced most of us to stay indoors, we decided to set up a studio at home. The goal was to create a safe and productive working environment and begin creating imagery for recipes and marketing campaigns for Sunbasket. The relationship evolved and created oppurtunities to work with the Sunbasket product team on front-end projects.',
           image: (
             <Img
               fluid={props.data.imageSunbasket.childImageSharp.fluid}
